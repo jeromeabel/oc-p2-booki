@@ -1,6 +1,9 @@
 # oc-p1-booki
 Projet Booki : transformer une maquette en site web avec HTML &amp; CSS
 
+## Description du projet
+Booki, une petite entreprise proposant un outil de planification de vacances. Créer un prototype en intégrant la maquette en HTML et CSS.
+
 ## Fichiers
 - index.html
 - css/*.css
