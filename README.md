@@ -14,10 +14,11 @@ Booki, une petite entreprise proposant un outil de planification de vacances. Cr
 - vscode
 - meta charset + viewport
 - normalize.css
-- google font
-- intégration font- awesome
+- google font : https://www.w3schools.com/css/css_font_google.asp
+- intégration font- awesome : https://cdnjs.com/libraries/font-awesome
 
 ## Ressources
+- Icones : https://www.w3schools.com/icons/icons_reference.asp
 - Découper et intégrer une maquette : https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette
 - balises sémantiques : https://ronan-hello.fr/series/html/balises-semantiques-html
 - css selectors : https://www.w3schools.com/cssref/css_selectors.asp
