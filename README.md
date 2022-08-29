@@ -2,27 +2,24 @@
 Projet Booki : transformer une maquette en site web avec HTML &amp; CSS
 
 ## Description du projet
-Booki, une petite entreprise proposant un outil de planification de vacances. Créer un prototype en intégrant la maquette en HTML et CSS.
-
-## Fichiers
-- index.html
-- css/*.css
-- images/*.jpg
+Booki, une petite entreprise propose un outil de planification de vacances. Créer un prototype en intégrant la maquette en HTML et CSS.
 
 ## Étape 1 : environnement
 - dépôt github
 - vscode
+- fichiers : index.html, css/*.css, images/*.jpg
 - meta charset + viewport
 - normalize.css
-- google font : https://www.w3schools.com/css/css_font_google.asp
-- intégration font- awesome : https://cdnjs.com/libraries/font-awesome
+- google font
+- intégration font- awesome
 
 ## Ressources
-- Icones : https://www.w3schools.com/icons/icons_reference.asp
+- Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp
+- Icones : https://www.w3schools.com/icons/icons_reference.asp, https://cdnjs.com/libraries/font-awesome
 - Découper et intégrer une maquette : https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette
-- balises sémantiques : https://ronan-hello.fr/series/html/balises-semantiques-html
-- css selectors : https://www.w3schools.com/cssref/css_selectors.asp
-- flex :https://flexboxfroggy.com/#fr
-- normalize.css : https://www.hideout-lastation.com/using-normalize-css
-- meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/
-- box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
+- Balises sémantiques : https://ronan-hello.fr/series/html/balises-semantiques-html
+- Css selectors : https://www.w3schools.com/cssref/css_selectors.asp
+- Flex :https://flexboxfroggy.com/#fr
+- Normalize.css : https://www.hideout-lastation.com/using-normalize-css
+- Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/
+- Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
