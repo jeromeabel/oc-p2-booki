@@ -1,8 +1,10 @@
-# oc-p1-booki
+# oc-p2-booki
 Projet Booki : transformer une maquette en site web avec HTML &amp; CSS
 
 ## Description du projet
 Booki, une petite entreprise propose un outil de planification de vacances. Créer un prototype en intégrant la maquette en HTML et CSS.
+
+Livrable : Dupont_Jean_1_code_012022.zip
 
 ## Étape 1 : environnement
 - dépôt github
@@ -11,7 +13,8 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - meta charset + viewport
 - normalize.css
 - google font
-- intégration font- awesome
+- intégration font- awesome : <i class="fab fa-angellist"></i>
+- box-sizing
 
 ## Ressources
 - Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp
@@ -21,5 +24,5 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - Css selectors : https://www.w3schools.com/cssref/css_selectors.asp
 - Flex :https://flexboxfroggy.com/#fr
 - Normalize.css : https://www.hideout-lastation.com/using-normalize-css
-- Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/
+- Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/, https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag
 - Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
