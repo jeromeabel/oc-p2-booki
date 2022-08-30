@@ -1,3 +1,4 @@
+/* ------ BASE ------ */
 * {
     box-sizing: border-box;
 }
@@ -8,9 +9,14 @@ body {
 	font-family: 'Raleway', sans-serif;
 	display: flex;
 	justify-content: center;
-   
 }
 
+#container {
+    width:90%;
+    max-width: 1200px;
+}
+
+/* ------ HEADER & NAV ------ */
 header {
     display: flex;
     align-items: center;
@@ -43,7 +49,7 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     text-decoration: none;
     color: black;
     border-top: 3px solid #fff; /* Obligé ? */
@@ -53,3 +59,87 @@ nav li a {
     border-top: 3px solid #0065FC;
     color: #0065FC;
  }
+
+/* ------ FILTERS ------ */
+.filters-box h1 {
+    font-size: 1.2em;
+}
+
+.filter-form {
+    display: flex;
+    max-width: 500px;
+}
+.filter-form > i {
+    padding: 1em;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.filter-form input[type="text"] {
+    flex: 1 1 auto;
+    border: 1px solid #F2F2F2;
+    font-weight: 600;
+    color: #000;
+    padding-left: 10px;
+}
+
+.filter-form input[type="submit"] {
+    background-color: #0065FC;
+    color: #fff;
+    border-style: none;
+    padding: 0px 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.filters__btn {
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.filters__btn > span {
+    padding: 0 20px 0 10px;
+}
+
+.circle-icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 10px;
+    z-index: 1;
+}
+
+.circle-icon-outline {
+    color: #0065FC;
+    font-size: 12px;
+    font-weight: 800;
+    border: 1px solid #ccc;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/* ------ LOCATIONS ------ */
+
+/* ------ POPULAR LOCATIONS ------ */
+
+/* ------ ACTIVITIES ------ */
+
+/* ------ FOOTER ------ */

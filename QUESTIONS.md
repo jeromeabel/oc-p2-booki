@@ -19,3 +19,8 @@ Ne marche pas ? : https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1
 ## Menu horizontal + image logo
 ? Trop Compliqué ? des display: flex partout...
 Alternative display: inline-table ?
+
+## Box-sizing ?
+* {
+    box-sizing: border-box;
+}
