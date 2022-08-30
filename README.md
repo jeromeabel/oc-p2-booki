@@ -17,6 +17,7 @@ Livrable : Dupont_Jean_1_code_012022.zip
 - box-sizing
 
 ## Ressources
+- Menu bar (ul li a) : https://dev.to/nicm42/links-inside-li-that-take-up-all-the-space-4c37, https://juliencrego.com/astuces/creer-un-menu-horizontal-simplissime-en-css/
 - Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp
 - Icones : https://www.w3schools.com/icons/icons_reference.asp, https://cdnjs.com/libraries/font-awesome
 - Découper et intégrer une maquette : https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette
