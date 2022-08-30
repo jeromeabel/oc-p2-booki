@@ -15,39 +15,61 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet"> 
 
-        <!-- Import Font Awesome Icons (cdnà) -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+        <!-- Import Font Awesome Icons -->
+       <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
         <title>Booki / Accueil</title>
     </head>
     <body>
+        <!-- Main container -->
         <div class="container">
+
+            <!-- Header -->
             <header class="header">
-                <img alt="Booki Logo" src="./images/logo/Booki.png">
-                <nav>
+                <img class="header__logo" alt="Booki Logo" src="./images/logo/Booki.png">
+                <nav class="nav">
                     <ul>
-                        <li><a href="#hebergements" title="Hébergements">Hébergements</a></li>
-                        <li><a href="#activites" title="Activités">Activités</a></li>
+                        <li><a href="#hebergements" title="Hébergements" class="nav__link nav__link--active">Hébergements</a></li>
+                        <li><a href="#activites" title="Activités" class="nav__link">Activités</a></li>
                     </ul>
                 </nav>
             </header>
 
             <main>
                 <!-- Filtres -->
-                <section>
-                    
+                <section class="filters">
+                    <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+
+                    <form class="filter-form">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" name="location" placeholder="Marseille, France">
+                        <input type="button" value="Rechercher">
+                    </form>
+
+                    <div class="filters-choice">
+                        <p class="filters__heading">Filtres :</p>
+                        <div class="filters__btn"><i class="fa-solid fa-money-bill-wave"></i> Économique</div>
+                        <div class="filters__btn"><i class="fa-solid fa-child-reaching"></i> Familial</div>
+                        <div class="filters__btn"><i class="fa-solid fa-heart"></i> Romantique</div>
+                        <div class="filters__btn"><i class="fa-solid fa-dog"></i></i> Animaux autorisés</div>
+                    </div>
+
+                    <p><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville.</p>
                 </section>
 
                 <!-- Logements -->
-                <section></section>
+                <section id="hebergements"></section>
 
                 <!-- Logements populaires -->
                 <aside></aside>
 
                 <!-- Activités -->
-                <section></section>
+                <section id="activites"></section>
             </main>
 
+            <!-- Footer -->
             <footer>
             </footer>
         </div>

@@ -1,4 +1,55 @@
+/* ------------ Base ------------ */
 body {
     font-family: 'Raleway', Verdana, Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+}
+
+* {
+   /* box-sizing: border-box; */
+}
+
+.container {
+    width:80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* ------------ Header & nav ------------ */
+.header { 
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.header__logo {
+}
+
+.nav {
+
+}
+
+.nav > ul {
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav > ul li {
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.nav__link--active {
+    color: blue;
+    border-top: 2px solid blue;
+}
+
+/* ------------ Filters ------------ */
+.filters-choice {
+    display: flex;
 }
