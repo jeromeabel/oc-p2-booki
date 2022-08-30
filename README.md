@@ -22,7 +22,7 @@ Livrable : Dupont_Jean_1_code_012022.zip
 - Découper et intégrer une maquette : https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette
 - Balises sémantiques : https://ronan-hello.fr/series/html/balises-semantiques-html
 - Css selectors : https://www.w3schools.com/cssref/css_selectors.asp
-- Flex :https://flexboxfroggy.com/#fr
+- Flex : https://flexboxfroggy.com/#fr
 - Normalize.css : https://www.hideout-lastation.com/using-normalize-css
 - Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/, https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag
 - Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
