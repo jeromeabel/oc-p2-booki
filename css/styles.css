@@ -7,17 +7,14 @@ body {
     margin: 0;
     padding: 0;
 	font-family: 'Raleway', sans-serif;
-	display: flex;
-	justify-content: center;
+	display: flex; 
+	justify-content: center; /* center main container */
 }
 
 #container {
     width:90%;
     max-width: 1400px;
 }
-
-
-
 
 /* ------ HEADER & NAV ------ */
 header {
@@ -31,15 +28,9 @@ header, nav {
 }
 
 #logo {
-    height: 50px;
-}
-
-.site-logo {
-    
-    border: 1px solid red;
+    width: 100px;
 }
   
-
 nav ul {
     margin: 0; /* ? padding: 0 ? */
     height: 100%; /* ? width: 100% ? */
@@ -156,3 +147,27 @@ nav li a {
 /* ------ ACTIVITIES ------ */
 
 /* ------ FOOTER ------ */
+footer {
+    background-color: #F2F2F2;
+    padding: 2em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+footer li {
+    padding: 0.2em 0;
+}
