@@ -65,21 +65,22 @@ nav li a {
  }
 
 /* ------ FILTERS ------ */
-.filters-box h1 {
+.filters__header h1 {
     font-size: 1.2em;
 }
 
-.filter-form {
+.filters__form {
     display: flex;
-    max-width: 500px;
+    max-width: 400px;
 }
-.filter-form > i {
+
+.filters__form > i {
     padding: 1em;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
 
-.filter-form input[type="text"] {
+.filters__form input[type="text"] {
     flex: 1 1 auto;
     border: 1px solid #F2F2F2;
     font-weight: 600;
@@ -87,7 +88,7 @@ nav li a {
     padding-left: 10px;
 }
 
-.filter-form input[type="submit"] {
+.filters__form input[type="submit"] {
     background-color: #0065FC;
     color: #fff;
     border-style: none;
@@ -95,50 +96,24 @@ nav li a {
     border-radius: 0px 15px 15px 0px;
 }
 
-.filters {
+.filters__select {
     display: flex;
     align-items: center;
     font-weight: 600;
     margin: 1em 0;
 }
 
+.filters__select p {
+    margin-right: 20px;
+}
+
 .filters__btn {
     border-radius: 20px;
     border: 2px solid #ddd;
-    height: 40px;
-    margin: 0 10px;
-}
-
-.filters__btn > span {
-    padding: 0 20px 0 10px;
-}
-
-.circle-icon {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    vertical-align: middle;
+    display: flex;
     padding: 10px;
-    z-index: 1;
 }
 
-.circle-icon-outline {
-    color: #0065FC;
-    font-size: 12px;
-    font-weight: 800;
-    border: 1px solid #ccc;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 25px;
-    vertical-align: middle;
-    padding: 5px;
-}
 
 /* ------ LOCATIONS ------ */
 
