@@ -49,18 +49,21 @@
             </header>
 
             <main>
-                <!-- Filtres -->
-                <section class="filters-box">
-                    <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
+                <!-- Section : filtres -->
+                <section class="filters">
+                    <div class="filters__header"> <!-- ?? div -->
+                        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                        <p>En plein centre ville ou en pleine nature</p>
+                    </div>
 
-                    <form class="filter-form">
+                    <!-- ?? div -->
+                    <form class="filters__form">
                         <i class="fa-solid fa-location-dot"></i>
                         <input type="text" value="Marseille, France">
                         <input type="submit" value="Rechercher">
                     </form>
 
-                    <div class="filters">
+                    <div class="filters__select">
                         <p>Filtres</p>
                         <div class="filters__btn"><i class="fa-solid fa-money-bill-wave circle-icon"></i> <span>Économique</span></div>
                         <div class="filters__btn"><i class="fa-solid fa-child-reaching circle-icon"></i> <span>Familial</span></div>
@@ -68,16 +71,20 @@
                         <div class="filters__btn"><i class="fa-solid fa-dog circle-icon"></i></i> <span>Animaux autorisés</span></div>
                     </div>
 
-                    <p><i class="fa-solid fa-info circle-icon-outline"></i> Plus de 500 logements sont disponibles dans cette ville.</p>
+                    <div class="filters__footer"> <!-- ?? div -->
+                        <p><i class="fa-solid fa-info circle-icon-outline"></i> Plus de 500 logements sont disponibles dans cette ville.</p>
+                    </div>
                 </section>
 
-                <!-- Logements -->
-                <section id="hebergements"></section>
+                <!-- Section : hébergements -->
+                <section id="hebergements">
+                    
+                </section>
 
-                <!-- Logements populaires -->
+                <!-- Section : hébergements populaires -->
                 <aside></aside>
 
-                <!-- Activités -->
+                <!-- Section : activités -->
                 <section id="activites"></section>
             </main>
 
