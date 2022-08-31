@@ -13,8 +13,11 @@ body {
 
 #container {
     width:90%;
-    max-width: 1200px;
+    max-width: 1400px;
 }
+
+
+
 
 /* ------ HEADER & NAV ------ */
 header {
@@ -26,6 +29,16 @@ header {
 header, nav { 
     height: 100px;
 }
+
+#logo {
+    height: 50px;
+}
+
+.site-logo {
+    
+    border: 1px solid red;
+}
+  
 
 nav ul {
     margin: 0; /* ? padding: 0 ? */
