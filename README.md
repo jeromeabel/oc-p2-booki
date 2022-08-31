@@ -28,3 +28,12 @@ Livrable : Dupont_Jean_1_code_012022.zip
 - Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/, https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag
 - Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
 - meta mnimal template : https://github.com/celine-m-s/metatags-101/blob/master/minimal_template
+- https://www.abondance.com/20140627-14046-faut-il-integrer-les-balises-semantiques-schema-org-ses-pages.html
+
+
+
+Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
+
+Schema creator : créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 
+
+validator W3C html+css

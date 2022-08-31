@@ -1,5 +1,8 @@
 # ❔ Questions
 
+
+## Découpage
+balises div ?
 ## Normalize
 Besoin de reset.css ?
 
@@ -24,3 +27,4 @@ Alternative display: inline-table ?
 * {
     box-sizing: border-box;
 }
+
