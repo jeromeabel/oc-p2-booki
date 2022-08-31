@@ -27,3 +27,4 @@ Livrable : Dupont_Jean_1_code_012022.zip
 - Normalize.css : https://www.hideout-lastation.com/using-normalize-css
 - Meta : https://www.pierre-giraud.com/html-css-apprendre-coder-cours/meta-viewport/, https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag
 - Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
+- meta mnimal template : https://github.com/celine-m-s/metatags-101/blob/master/minimal_template
