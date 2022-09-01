@@ -2,6 +2,11 @@
 
 D'abord tout faire en html ? puis attauer le css section par section ?
 
+## GIT erreur quand je suis en terminal
+emote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/jeromeabel/oc-p2-booki.git/'
+
 ## HTML
 - Sections header : h2 tout seul ou dans un p ou dans une div ou dans un header
 - Formulaire : balise form ou dans une div 
