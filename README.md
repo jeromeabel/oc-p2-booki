@@ -22,7 +22,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - flex : https://css-tricks.com/snippets/css/a-guide-to-flexbox/, https://la-cascade.io/flexbox-guide-complet/
 - positionnement ! https://developer.mozilla.org/fr/docs/Web/CSS/position, https://openweb.eu.org/articles/initiation_absolue
 - icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
-
+- overflow : https://developer.mozilla.org/fr/docs/Web/CSS/overflown https://www.alsacreations.com/tuto/lire/1038-gerer-debordement-contenu-et-cesures-css.html
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 
 Schema creator : créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 

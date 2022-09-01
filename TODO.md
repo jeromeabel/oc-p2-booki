@@ -7,9 +7,7 @@
 - [x] Header mobile 
 - [x] Filtres - barre de recherche - desktop
 - [x] Filtres - barre de recherche - mobile
-- [ ] CSS icone circle
-- [ ] Filtres - boutons - desktop : icone/cercle, survol
-- [ ] Filtres - boutons - mobile
+- [ ] Filtres - boutons - desktop & mobile (idem ?) : flex out+in, icone/cercle (dépasse légèrement avec overflow ?), survol, attention padding/margin
 
 ## 🎯 To do
 - [ ] Cartes cliquables dans son intégralité

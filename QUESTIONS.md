@@ -1,4 +1,6 @@
 # ❔ Questions
+
+D'abord tout faire en html ? puis attauer le css section par section ?
 ## HTML
 - Sections header : h2 tout seul ou dans un p ou dans une div ou dans un header
 - Formulaire : balise form ou dans une div 
