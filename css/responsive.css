@@ -96,5 +96,13 @@
         text-align: center;
 
     }
+    
+    .filters__select {
+        gap: 15px 15px;
+    }
+
+    .filters__select p {
+        width: 100%;
+    }
 
 }

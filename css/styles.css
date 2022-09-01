@@ -126,13 +126,15 @@ nav li a {
 
 .filters__select {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    gap: 20px 20px;
     font-weight: 600;
     margin: 1em 0;
 }
 
 .filters__select p {
-    margin-right: 20px;
+    
 }
 
 .filters__btn {
