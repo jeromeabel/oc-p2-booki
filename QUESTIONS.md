@@ -1,30 +1,13 @@
 # ❔ Questions
-
-
-## Découpage
-balises div ?
-## Normalize
-Besoin de reset.css ?
-
-## Google font
-
-```
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" >
-```
-
-## Font Awesome
-Cdn, kit, js/css ?
-Ne marche pas ? : https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
-
-
-## Menu horizontal + image logo
-? Trop Compliqué ? des display: flex partout...
-Alternative display: inline-table ?
-
-## Box-sizing ?
-* {
-    box-sizing: border-box;
-}
-
+## Découpage HTML
+- Sections header : h2 tout seul ou dans un p ou dans une div ou dans un header
+- Formulaire : balise form ou dans une div 
+- Section hébergements populaires : section ou aside  
+- Footer : h2 ou p
+## CSS
+- Besoin de reset.css ?
+- Google font : pourquoi aussi compliqué ? rel="preconnect" crossorigin
+- Font awesome : cdn, kit ? Lien ne fonctionne pas :  https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css
+- ?  * { box-sizing: border-box ; } ?
+- Menu horizontal avec image logo : trop compliqué ? Alternative avec inline-table ?
+- menu li : border top et bottom : 3px solid white ?
