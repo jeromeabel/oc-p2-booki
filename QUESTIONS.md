@@ -1,11 +1,13 @@
 # ❔ Questions
 
 D'abord tout faire en html ? puis attauer le css section par section ?
+
 ## HTML
 - Sections header : h2 tout seul ou dans un p ou dans une div ou dans un header
 - Formulaire : balise form ou dans une div 
-- Section hébergements populaires : section ou aside  
+- Section hébergements populaires : section ou aside
 - Footer : h2 ou p
+
 ## CSS
 - Besoin de reset.css ?
 - Google font : pourquoi aussi compliqué ? rel="preconnect" crossorigin
@@ -20,3 +22,4 @@ D'abord tout faire en html ? puis attauer le css section par section ?
 - form : positionnement absolu/relatif nécessaire (juste pour le logo "loupe" mobile ?) ? ou flex + vertical-align + line-height ?
 - form : noms en cascade ? filters__form__logo
 - Responsive Tablets ?
+- Césure du texte notamment h1 filters ?
