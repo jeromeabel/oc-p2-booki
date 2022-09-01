@@ -1,5 +1,5 @@
 # ❔ Questions
-## Découpage HTML
+## HTML
 - Sections header : h2 tout seul ou dans un p ou dans une div ou dans un header
 - Formulaire : balise form ou dans une div 
 - Section hébergements populaires : section ou aside  
@@ -17,3 +17,4 @@
 - header : aucuns changements pour tablette
 - form : positionnement absolu/relatif nécessaire (juste pour le logo "loupe" mobile ?) ? ou flex + vertical-align + line-height ?
 - form : noms en cascade ? filters__form__logo
+- Responsive Tablets ?
