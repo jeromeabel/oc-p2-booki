@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-    width:90%;
+    width:100%;
     max-width: 1400px;
 }
 
@@ -32,10 +32,12 @@ header, nav {
 }
   
 nav ul {
-    margin: 0; /* ? padding: 0 ? */
-    height: 100%; /* ? width: 100% ? */
+    padding:0;
+    margin: 0;
+    /*width: 100%;*/
+    height: 100%;
     display: flex;
-    /* ??
+    /*
     justify-content: space-between;
     align-items: stretch;
     */
@@ -53,9 +55,9 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-decoration: none;
     color: black;
+    border-bottom: 3px solid #fff; /* Obligé ? */
     border-top: 3px solid #fff; /* Obligé ? */
  }
 

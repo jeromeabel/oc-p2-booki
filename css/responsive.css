@@ -1,12 +1,29 @@
 /* Desktop first : du plus grand au plus petit */
-/* ligne/colonne, centre, largeur, ordre */
-/* Tablets ( + Phones) */
+/* En général : ligne/colonne, centre, largeur, ordre */
+/* Medium devices : tablets ( + Phones) */
 @media (max-width: 992px) {
 
 }
 
 
-/* Phones */
-@media (max-width: 576px) {
+/* Small devices : phones */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        border: 1px solid red;
+        width: 100%;
+
+    }
+
+    nav li {
+        width:50%;
+    }
+
+    nav li a:hover, .active {
+        border-bottom: 3px solid #0065FC;
+     }
 
 }
