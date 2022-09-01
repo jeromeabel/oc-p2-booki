@@ -106,12 +106,22 @@ nav li a {
     padding-left: 15px;
 }
 
-.filters__form input[type="submit"] {
+/*
+.filters__form input[type="submit"] {*/
+.filters_submit {
     background-color: #0065FC;
     color: #fff;
     border-style: none;
+
+}
+
+.filters_submit--desktop {
     padding: 0px 20px;
     border-radius: 0px 15px 15px 0px;
+}
+
+.filters_submit--mobile {
+    display: none;
 }
 
 .filters__select {

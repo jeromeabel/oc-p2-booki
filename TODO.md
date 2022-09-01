@@ -5,8 +5,8 @@
 - [x] Structuration HTML balises sémantiques
 - [x] Header : Logo + menu horizontal
 - [x] Header mobile & tablette (aucuns changements pour tablette)
-- [x] Filtres > barre de recherche - desktop
-- [ ] Filtres mobile
+- [x] Filtres - barre de recherche - desktop
+- [ ] Filtres - barre de recherche - mobile
 ## 🎯 To do
 - [ ] Cartes cliquables dans son intégralité
 - [ ] Plusieurs formats pour les images

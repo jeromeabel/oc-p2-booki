@@ -16,7 +16,7 @@
     }
 
     main {
-        margin: 40px 20px;
+        margin: 40px 25px;
     }
 
     /* ------ HEADER & NAV ------ */
@@ -50,5 +50,51 @@
         border-bottom: 3px solid #0065FC;
         border-top: 3px solid #fff; /* ?? */
      }
+
+    /* ------ FILTERS ------ */
+     #filters {
+        font-size: 20px;
+    }
+
+    .filters__header h1 {
+        font-size: 28px;
+    }
+
+    .filters__form {
+        height:65px;
+        margin: 35px 0;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .filters__form__logo {
+        border-radius: 20px 0px 0px 20px;
+        width: 65px;
+        text-align: center;
+    }
+
+    .filters__form__logo > i {
+        padding: 0 25px;
+        line-height: 65px;
+    }
+    
+    .filters__form input[type="text"] {
+        padding-left: 20px;
+    }
+
+    .filters_submit--desktop {
+        display: none;
+    }
+
+    .filters_submit--mobile {
+        position: absolute;
+        right:-20px;
+        display: inline-block;
+        width: 65px;
+        height: 65px;
+        border-radius: 20px;
+        text-align: center;
+
+    }
 
 }

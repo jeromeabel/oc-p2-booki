@@ -21,7 +21,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - https://www.abondance.com/20140627-14046-faut-il-integrer-les-balises-semantiques-schema-org-ses-pages.html
 - flex : https://css-tricks.com/snippets/css/a-guide-to-flexbox/, https://la-cascade.io/flexbox-guide-complet/
 - positionnement ! https://developer.mozilla.org/fr/docs/Web/CSS/position, https://openweb.eu.org/articles/initiation_absolue
-
+- icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
 
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 
