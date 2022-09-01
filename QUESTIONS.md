@@ -10,4 +10,5 @@
 - Font awesome : cdn, kit ? Lien ne fonctionne pas :  https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css
 - ?  * { box-sizing: border-box ; } ?
 - Menu horizontal avec image logo : trop compliqué ? Alternative avec inline-table ?
+- menu image dans une div ?
 - menu li : border top et bottom : 3px solid white ?
