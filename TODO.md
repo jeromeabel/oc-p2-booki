@@ -1,20 +1,21 @@
 # TODO
 ## ⏳ Doing (à vérifier)
-- [x] Découpage desktop-first en .svg
+- [x] Découpage desktop-first en .svg et .png
 - [x] Découpage mobile en .svg : changements / desktop
 - [x] Structuration HTML balises sémantiques
 - [x] Header : Logo + menu horizontal
 - [x] Header mobile 
 - [x] Filtres - barre de recherche - desktop
 - [x] Filtres - barre de recherche - mobile
+- [ ] CSS icone circle
+- [ ] Filtres - boutons - desktop : icone/cercle, survol
+- [ ] Filtres - boutons - mobile
 
 ## 🎯 To do
 - [ ] Cartes cliquables dans son intégralité
 - [ ] Plusieurs formats pour les images
 - [ ] Unités CSS : px ou %
 - [ ] Classe de couleurs : fond et texte ?
-- [ ] CSS icone circle
-- [ ] Section filtres : boutons, changent au survol
 - [ ] Clean CSS naming : DRY (refactoring)
 - [ ] Implémenter CSS Responsive Tablets ?? aucuns changements pour tablette ??
 - [ ] Implémenter CSS Responsive Mobile : radius!, icone Recherche
