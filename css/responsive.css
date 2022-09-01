@@ -15,6 +15,10 @@
         width:100%;
     }
 
+    main {
+        margin: 40px 20px;
+    }
+
     /* ------ HEADER & NAV ------ */
     header {
         flex-direction: column;
