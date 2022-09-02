@@ -144,6 +144,35 @@ nav li a {
     padding: 10px;
 }
 
+/*
+.circle-icon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 10px;
+    z-index: 1;
+}
+
+.circle-icon-outline {
+    color: #0065FC;
+    font-size: 12px;
+    font-weight: 800;
+    border: 1px solid #ccc;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 5px;
+}
+*/
+
 
 /* ------ LOCATIONS ------ */
 
