@@ -1,5 +1,12 @@
 # ❔ Questions
 
+
+
+    padding: 56px 0; /* alignement vertical */
+
+
+
+
 D'abord tout faire en html ? puis attenuer le css section par section ?
 
 ## GIT erreur quand je suis en terminal

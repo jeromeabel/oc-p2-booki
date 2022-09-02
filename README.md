@@ -26,6 +26,9 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
 - overflow : https://developer.mozilla.org/fr/docs/Web/CSS/overflown https://www.alsacreations.com/tuto/lire/1038-gerer-debordement-contenu-et-cesures-css.html
 - picture : picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
+- on positionne avec flex, on finalise avec margin/padding
+- Reporter les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
+- Travailler les dimensions des élements en live avec l'extension chrome perfectpixel, l'affichage responsive et l'inspecteur
 
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 
