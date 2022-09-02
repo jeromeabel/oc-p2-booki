@@ -3,8 +3,6 @@
 
 ## 🎯 To do
 - [ ] img (display: block; max-width: 100%)
-- [ ] Remplacer le conteneur principal par div class="container" dans chaque section : header, main, footer + margin-inline: auto 
-- [ ] Installer extensions vscode : auto rename tag, html end tag label, indent rainbow
 - [ ] Définir les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
 - [ ] Travailler les dimensions des élements en live avec l'extension chrome perfectpixel), l'aafichage responsive et l'inspecteur
 - [x] Header : logo + menu horizontal
@@ -31,3 +29,6 @@
 - [x] Découpage desktop-first en .svg et .png
 - [x] Découpage mobile en .svg et .png : changements / desktop
 - [x] Structuration HTML balises sémantiques
+- [x] Installer extensions vscode : auto rename tag, html end tag label, indent rainbow
+- [x] Remplacer le conteneur principal par des div container dans chaque grande section : header, main, footer 
+
