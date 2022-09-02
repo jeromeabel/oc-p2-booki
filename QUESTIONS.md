@@ -1,6 +1,6 @@
 # ❔ Questions
 
-D'abord tout faire en html ? puis attauer le css section par section ?
+D'abord tout faire en html ? puis attenuer le css section par section ?
 
 ## GIT erreur quand je suis en terminal
 emote: Support for password authentication was removed on August 13, 2021.
@@ -21,10 +21,11 @@ fatal: Échec d'authentification pour 'https://github.com/jeromeabel/oc-p2-booki
 - id pour sections, même celles dans liens ?
 - Unités px pour font, witdh, height, margin, padding ?
 - header : Menu horizontal avec image logo : trop compliqué ? Alternative avec inline-table ?
-- header :menu image dans une div ?
+- header : menu image dans une div ?
 - header : menu li : border top et bottom : 3px solid white ?
 - header : aucuns changements pour tablette
 - form : positionnement absolu/relatif nécessaire (juste pour le logo "loupe" mobile ?) ? ou flex + vertical-align + line-height ?
 - form : noms en cascade ? filters__form__logo
 - Responsive Tablets ?
 - Césure du texte notamment h1 filters ?
+- icone : carré réduire, padding

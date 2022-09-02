@@ -6,6 +6,8 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 ## Livrable
 - Zip : Dupont_Jean_1_code_012022.zip
 
+1440px
+
 ## Ressources
 - Menu bar (ul li a) : https://dev.to/nicm42/links-inside-li-that-take-up-all-the-space-4c37, https://juliencrego.com/astuces/creer-un-menu-horizontal-simplissime-en-css/
 - Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp
@@ -23,6 +25,8 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - positionnement ! https://developer.mozilla.org/fr/docs/Web/CSS/position, https://openweb.eu.org/articles/initiation_absolue
 - icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
 - overflow : https://developer.mozilla.org/fr/docs/Web/CSS/overflown https://www.alsacreations.com/tuto/lire/1038-gerer-debordement-contenu-et-cesures-css.html
+- picture : picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
+
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 
 Schema creator : créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 

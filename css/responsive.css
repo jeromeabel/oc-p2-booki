@@ -11,6 +11,7 @@
     body {
         font-size: 20px;
     }
+    
     #container {
         width:100%;
     }
@@ -104,5 +105,4 @@
     .filters__select p {
         width: 100%;
     }
-
 }
