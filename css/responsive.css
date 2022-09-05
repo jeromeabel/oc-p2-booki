@@ -7,102 +7,41 @@
 
 /* Small devices : phones */
 @media (max-width: 768px) {
-    /* ------ BASE ------ */
-    body {
-        font-size: 20px;
-    }
     
-    #container {
-        width:100%;
+    body {
+        font-size: 32px;
     }
 
-    main {
-        margin: 40px 25px;
+    .container {
+        padding:0;
+        
     }
 
-    /* ------ HEADER & NAV ------ */
-    header {
+    header .container {
         flex-direction: column;
-        justify-content:space-around;
-        height: 175px;
+        justify-content:space-between;
+        height: 263px;
     }
 
-    .header__logo {
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        flex:2;
+    header .container img {
+        padding: 0;
+        height: 55px;
+        margin-top: 60px;
     }
 
     nav {
         width: 100%;
-        flex:1;
     }
-
     nav li {
-        width:50%;
+        width: 50%;
     }
-
-    nav li a {
-        border-bottom: 3px solid #f2f2f2;
-    }
-
-    nav li a:hover, .active {
-        border-bottom: 3px solid #0065FC;
-        border-top: 3px solid #fff; /* ?? */
-     }
-
-    /* ------ FILTERS ------ */
-     #filters {
-        font-size: 20px;
-    }
-
-    .filters__header h1 {
-        font-size: 28px;
-    }
-
-    .filters__form {
-        height:65px;
-        margin: 35px 0;
-        font-size: 22px;
-        position: relative;
-    }
-
-    .filters__form__logo {
-        border-radius: 20px 0px 0px 20px;
-        width: 65px;
-        text-align: center;
-    }
-
-    .filters__form__logo > i {
-        padding: 0 25px;
-        line-height: 65px;
-    }
-    
-    .filters__form input[type="text"] {
-        padding-left: 20px;
-    }
-
-    .filters_submit--desktop {
-        display: none;
-    }
-
-    .filters_submit--mobile {
-        position: absolute;
-        right:-20px;
-        display: inline-block;
-        width: 65px;
-        height: 65px;
-        border-radius: 20px;
-        text-align: center;
-
-    }
-    
-    .filters__select {
-        gap: 15px 15px;
-    }
-
-    .filters__select p {
+    nav a {
         width: 100%;
+        padding: 25px 0;
     }
+    
+    nav li a:hover, .active {
+        border-top: 0;
+        border-bottom: 5px solid #0065FC;
+     }
 }

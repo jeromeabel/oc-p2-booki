@@ -1,6 +1,5 @@
 # TODO
 ## ⏳ Doing
-- [ ] Header mobile
 - [ ] Filtres - barre de recherche - desktop
 - [ ] Filtres - barre de recherche - mobile
 
@@ -31,3 +30,5 @@
 - [x] Reporter les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
 - [X] Recadrer l'image du logo pour avoir les réelles dimensions
 - [x] Header - desktop - pixel perfect
+- [x] Header mobile
+

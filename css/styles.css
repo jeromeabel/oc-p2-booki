@@ -32,7 +32,6 @@ header .container {
     align-items: center;
     justify-content: space-between;
     height: 130px;
-    border: 1px solid green;
 }
 
 header .container img {

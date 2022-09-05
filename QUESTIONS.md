@@ -1,10 +1,11 @@
 # ❔ Questions
 
 
-
+? 1440px
+? 375pix mobile
 Logo paddint-left ?
 nav centrage vertical ? pas pixel perfect padding: 55px 0; /* alignement vertical */
-
+donner une taille à une image : pourquoi l'image est bizarrement coupée ?
 
 
 
