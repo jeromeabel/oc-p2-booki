@@ -166,6 +166,26 @@ nav li a:hover, .active {
     padding-right: 20px;
 }
 
+.filters__footer {
+    padding:0;
+    margin:0;
+    font-size:16px;
+}
+
+.filters__footer p i {
+    color: #0065FC;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    text-shadow: 1px 0px 0px #0065FC;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-left:2px;
+}
 
 /* ------ LOCATIONS ------ */
 
