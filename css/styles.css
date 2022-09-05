@@ -31,12 +31,13 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 130px;
+    height: 115px;
 }
 
 header .container img {
-    height: 30px;
-    padding-left: 15px;
+    height: 29px;
+    margin-top:16px;
+    padding-left: 13px;
 }
 
 nav ul {
@@ -53,9 +54,10 @@ nav li {
 nav a {
     display: block;
     width: 162px;
-    padding: 55px 0; /* alignement vertical */
+    padding: 47px 0; /* alignement vertical */
     text-decoration: none;
     color: black;
+    border-top: 2px solid #FFF;
 }
 
 nav li a:hover, .active {
@@ -65,53 +67,53 @@ nav li a:hover, .active {
 
 /* ------ FILTERS ------ */
 
-#filters {
-    font-size: 16px;
+.filters__header h1 {
+    font-size: 22px;
+    margin:12px 0px 0px 0px;
 }
 
-.filters__header h1 {
-    font-size: 20px;
+.filters_header p {
+    padding:0;
+    margin:0;
 }
 
 .filters__form {
     display: flex;
-    max-width: 400px;
+    height: 50px;
+    font-size: 18px;
     margin:0;
     padding:0;
-    height:45px;
 }
 
 .filters__form__logo {
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    width: 45px;
     text-align: center;
 }
 
 .filters__form__logo > i {
-    vertical-align: middle;
-    line-height: 45px;
+    width:50px;
+    padding: 15px 0;
 }
 
+
 .filters__form input[type="text"] {
-    flex: 1 1 auto;
     border: 1px solid #F2F2F2;
     font-weight: 600;
     color: #000;
     padding-left: 15px;
+    width: 235px;
 }
 
-/*
-.filters__form input[type="submit"] {*/
 .filters_submit {
     background-color: #0065FC;
     color: #fff;
     border-style: none;
-
+    font-weight: 600;
 }
 
 .filters_submit--desktop {
-    padding: 0px 20px;
+    padding: 0px 18px;
     border-radius: 0px 15px 15px 0px;
 }
 
@@ -119,54 +121,49 @@ nav li a:hover, .active {
     display: none;
 }
 
+
 .filters__select {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px 20px;
     font-weight: 600;
-    margin: 1em 0;
+    margin: 23px 0;
+    padding-left:8px;
+    font-size:18px;
 }
 
-.filters__select p {
-    
-}
+.filters__select p { margin-right: 10px;}
 
 .filters__btn {
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 25px;
     border: 2px solid #ddd;
-    display: flex;
-    padding: 10px;
+    position: relative;
 }
 
-/*
-.circle-icon {
+.filters__btn i {
+    position: absolute;
+    left:-2px;
+    top:-2px;
     color: #0065FC;
+    border-radius: 25px;
     background-color: #DEEBFF;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align:center;
+
+    font-size: 20px;
+    line-height: 50px;
     vertical-align: middle;
-    padding: 10px;
-    z-index: 1;
 }
 
-.circle-icon-outline {
-    color: #0065FC;
-    font-size: 12px;
-    font-weight: 800;
-    border: 1px solid #ccc;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 25px;
-    vertical-align: middle;
-    padding: 5px;
+.filters__btn span {
+    display: inline-block;
+    margin-left:50px;
+    padding:15px 15px;
 }
-*/
 
 
 /* ------ LOCATIONS ------ */
