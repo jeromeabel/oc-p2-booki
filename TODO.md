@@ -1,9 +1,10 @@
 # TODO
 ## ⏳ Doing
-## 🎯 To do
-- [ ] Header mobile 
+- [ ] Header mobile
 - [ ] Filtres - barre de recherche - desktop
 - [ ] Filtres - barre de recherche - mobile
+
+## 🎯 To do
 - [ ] Filtres - boutons - desktop & mobile (idem ?) : flex out+in, icone/cercle (dépasse légèrement avec overflow ? carré+padding), survol, attention à padding/margin
 - [ ] Cartes cliquables dans son intégralité
 - [ ] img (display: block; max-width: 100%) / object-fit
@@ -29,7 +30,4 @@
 - [x] Remplacer le conteneur principal par des div container dans chaque grande section : header, main, footer
 - [x] Reporter les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
 - [X] Recadrer l'image du logo pour avoir les réelles dimensions
-- [x] Header - desktop
-
-
-
+- [x] Header - desktop - pixel perfect

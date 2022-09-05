@@ -13,7 +13,8 @@ body {
 .container {
     margin-inline: auto;
     max-width: 1440px;
-    padding-left: 50px;
+    padding-left: 55px;
+    padding-right: 25px;
 }
 
 header, main, footer {
@@ -31,11 +32,12 @@ header .container {
     align-items: center;
     justify-content: space-between;
     height: 130px;
+    border: 1px solid green;
 }
 
 header .container img {
-    height: 35px;
-    padding-left: 20px;
+    height: 30px;
+    padding-left: 15px;
 }
 
 nav ul {
@@ -51,14 +53,14 @@ nav li {
 
 nav a {
     display: block;
-    width: 160px;
+    width: 162px;
     padding: 55px 0; /* alignement vertical */
     text-decoration: none;
     color: black;
 }
 
 nav li a:hover, .active {
-    border-top: 1px solid #0065FC;
+    border-top: 2px solid #0065FC;
     color: #0065FC;
  }
 

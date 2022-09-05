@@ -2,7 +2,8 @@
 
 
 
-    padding: 56px 0; /* alignement vertical */
+Logo paddint-left ?
+nav centrage vertical ? pas pixel perfect padding: 55px 0; /* alignement vertical */
 
 
 
