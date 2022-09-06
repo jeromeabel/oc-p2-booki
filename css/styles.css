@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -17,7 +17,9 @@ body {
     padding-right: 25px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 100%;
     display: block;
 }
@@ -36,12 +38,12 @@ header .container {
 
 header .container img {
     height: 29px;
-    margin-top:16px;
+    margin-top: 16px;
     padding-left: 13px;
 }
 
 nav ul {
-    padding:0;
+    padding: 0;
     margin: 0;
     display: flex;
     text-align: center;
@@ -54,16 +56,18 @@ nav li {
 nav a {
     display: block;
     width: 162px;
-    padding: 47px 0; /* alignement vertical */
+    padding: 47px 0;
+    /* alignement vertical */
     text-decoration: none;
     color: black;
     border-top: 2px solid #FFF;
 }
 
-nav li a:hover, .active {
+nav li a:hover,
+.active {
     border-top: 2px solid #0065FC;
     color: #0065FC;
- }
+}
 
 /* ------ FILTERS ------ */
 
@@ -73,16 +77,16 @@ nav li a:hover, .active {
 }
 
 .filters_header p {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .filters__form {
     display: flex;
     height: 50px;
     font-size: 18px;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .filters__form__logo {
@@ -93,12 +97,12 @@ nav li a:hover, .active {
 
 .filters__form__logo {
     display: flex;
-    align-items: center;        
+    align-items: center;
 }
 
-.filters__form__logo > i {
-    width:50px;
-  /*  padding: 15px 0; */
+.filters__form__logo>i {
+    width: 50px;
+    /*  padding: 15px 0; */
 }
 
 .filters__form input[type="text"] {
@@ -132,11 +136,13 @@ nav li a:hover, .active {
     gap: 20px 20px;
     font-weight: 600;
     margin: 23px 0;
-    padding-left:8px;
-    font-size:18px;
+    padding-left: 8px;
+    font-size: 18px;
 }
 
-.filters__select p { margin-right: 10px; }
+.filters__select p {
+    margin-right: 10px;
+}
 
 .filters__btn {
     display: flex;
@@ -144,12 +150,12 @@ nav li a:hover, .active {
     height: 50px;
     border-radius: 25px;
     border: 2px solid #ddd;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .filters__btn:hover {
     color: #0065FC;
-    border-color:  #0065FC;
+    border-color: #0065FC;
 }
 
 .filters__btn i {
@@ -170,8 +176,8 @@ nav li a:hover, .active {
 }
 
 .filters__footer {
-    font-size:16px;
-    padding:1px 0;
+    font-size: 16px;
+    padding: 1px 0;
     display: flex;
     align-items: center;
     gap: 0 5px;
@@ -192,6 +198,95 @@ nav li a:hover, .active {
 
 /* ------ LOCATIONS ------ */
 
+.result {
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    padding: 40px 35px;
+    border-radius: 25px;
+    width: 870px;
+}
+
+
+.result a {
+    color: black;
+    text-decoration:none;
+}
+
+.result__header h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+
+.result__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 32px;
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+.result__card {
+    width: 245px;
+    height: 200px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px #ddd;
+}
+
+.result__card__txt {
+    padding: 0 10px;
+}
+
+.result__card__txt h3 {
+    padding: 0;
+    margin: 8px 0 4px 0;
+}
+
+.result__card__txt p {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.result__card__txt .fa-star {
+    font-size: 12px;
+    padding-right: 1px;
+}
+
+.txt-grey {
+    color: #f2f2f2;
+}
+
+.txt-grey2 {
+    color: #bbb;
+}
+
+.txt-blue {
+    color: #0065FC;
+}
+
+.result__card__img {
+    height: 114px;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result__card__img img {
+    display: block;
+    width: 100%;
+}
+
+.result__footer a {
+    font-size: 18px;
+    font-weight:600;
+}
 /* ------ POPULAR LOCATIONS ------ */
 
 /* ------ ACTIVITIES ------ */
@@ -213,8 +308,8 @@ footer p {
 }
 
 footer ul {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 

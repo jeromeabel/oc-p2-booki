@@ -13,6 +13,8 @@ Filtres - boutons - desktop & mobile (idem ?) : flex out+in, icone/cercle (dépa
 
 D'abord tout faire en html ? puis attenuer le css section par section ?
 
+card hover ancre ? <a href="#" title="Ouvrir"><div></div><div></div></a>
+
 ## GIT erreur quand je suis en terminal
 emote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.

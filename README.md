@@ -29,7 +29,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - on positionne avec flex, on finalise avec margin/padding
 - Reporter les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
 - Travailler les dimensions des élements en live avec l'extension chrome perfectpixel, l'affichage responsive et l'inspecteur
-
+- https://stackoverflow.com/questions/1827965/is-putting-a-div-inside-an-anchor-ever-correct
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 
 Schema creator : créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 

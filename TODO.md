@@ -1,5 +1,7 @@
 # TODO
 ## ⏳ Doing
+- [ ] Hébergemsents - desktop (cartes cliquables)
+
 
 ## 🎯 To do
 - [ ] Cartes cliquables dans son intégralité
@@ -29,6 +31,7 @@
 - [x] Filtres - barre de recherche - desktop
 - [x] Filtres - barre de recherche - mobile
 - [x] Filtres - hover boutons
+
 
 
 
