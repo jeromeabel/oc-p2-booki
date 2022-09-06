@@ -144,10 +144,16 @@ nav li a:hover, .active {
     height: 50px;
     border-radius: 25px;
     border: 2px solid #ddd;
+    cursor:pointer;
+}
+
+.filters__btn:hover {
+    color: #0065FC;
+    border-color:  #0065FC;
 }
 
 .filters__btn i {
-    transform: translateX(-2px);
+    transform: translateX(-2.5px);
     width: 50px;
     height: 50px;
     display: flex;
