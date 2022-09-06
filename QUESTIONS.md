@@ -8,6 +8,8 @@ nav centrage vertical ? pas pixel perfect padding: 55px 0; /* alignement vertica
 donner une taille à une image : pourquoi l'image est bizarrement coupée ?
 
 
+? boutons avec cercle icone qui passe devant : translateX ou overflow (notes techniques)?
+Filtres - boutons - desktop & mobile (idem ?) : flex out+in, icone/cercle (dépasse légèrement avec overflow ? carré+padding), survol, attention à padding/margin
 
 D'abord tout faire en html ? puis attenuer le css section par section ?
 
