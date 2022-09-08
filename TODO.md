@@ -1,7 +1,6 @@
 # TODO
 ## ⏳ Doing
-- [ ] Activités - desktop
-- [ ] Activités - mobile
+- [ ] Footer - mobile
 
 ## 🎯 To do
 - [ ] img (display: block; max-width: 100%) / object-fit
@@ -32,3 +31,7 @@
 - [x] Hébergements - desktop
 - [x] Hébergements : cartes cliquables
 - [x] Hébergements - mobile
+- [x] Activités - desktop
+- [x] Activités - mobile
+- [x] Footer - desktop
+
