@@ -1,5 +1,6 @@
 # ❔ Questions
 
+? tablette
 
 ? 1440px
 ? 375pix mobile
@@ -19,6 +20,9 @@ card hover ancre ? <a href="#" title="Ouvrir"><div></div><div></div></a>
 image object-fit: contain + width:100% ou height:100% (horizontal/vertical)
 
 popular : position étoile ? absolute ou div/flex encore ?
+
+Trop de règles !!!
+DRY ??
 
 ## GIT erreur quand je suis en terminal
 emote: Support for password authentication was removed on August 13, 2021.
