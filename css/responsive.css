@@ -1,5 +1,41 @@
 /* Medium devices : tablets  & Phones */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    /* ------ HEADER ------ */
+
+}
 
 /* Small devices : phones */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+    .container {
+        padding:0;
+    }
+
+    header .container {
+        flex-direction: column;
+        height: 265px;
+    }
+
+    header img {
+        height:70px; /* ? sur le svg 60px, avec pixel ?*/
+    }
+
+    header nav { border:1px solid red; width:100%;}
+
+    nav ul { }
+    nav li { 
+        flex:1;
+        text-align: center;
+    }
+
+    nav a {
+        border-top:2px solid transparent;
+        border-bottom:2px solid transparent;
+    }
+    
+    nav a:hover, .link-active {
+        border-bottom:2px solid #0065FC;
+        color: #0065FC;
+    }
+
+}

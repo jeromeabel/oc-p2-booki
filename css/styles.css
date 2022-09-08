@@ -37,26 +37,27 @@ a {
 /* ------ HEADER ------ */
 header .container {
     display: flex;
-    align-items: center;
+    align-items: center; /* ? sur la maquette pas centré verticalement ?? */
     justify-content: space-between;
     height: 130px;
 }
+
 header img {
-    height:60px;
+    height:50px; /* ? sur le svg 60px, avec pixel ?*/
 }
 nav ul { 
     display: flex;
 }
-
 nav a { /* ? class ou nav ul li a ?*/
     display: block;
     height: 100%;
     padding:55px 35px; /* ? alignement vertical */
     border-top:2px solid transparent;
+    border-bottom:2px solid transparent;
 }
 
 nav a:hover, .link-active {
-    border-color: #0065FC;
+    border-top:2px solid #0065FC;
     color: #0065FC;
 }
 
