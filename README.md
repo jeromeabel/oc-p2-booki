@@ -31,6 +31,8 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - Travailler les dimensions des élements en live avec l'extension chrome perfectpixel, l'affichage responsive et l'inspecteur
 - https://stackoverflow.com/questions/1827965/is-putting-a-div-inside-an-anchor-ever-correct
 - https://stackoverflow.com/questions/39955839/how-to-show-middle-of-image-in-div-using-css
+- card : https://www.gekkode.com/developpement/realiser-une-carte-en-css-card-ui-css/, https://www.w3schools.com/howto/howto_css_cards.asp
+- mosaic : https://www.quackit.com/css/flexbox/examples/, https://tobiasahlin.com/blog/common-flexbox-patterns/#masonry-or-mosaic
 
 
 Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
