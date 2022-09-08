@@ -286,7 +286,6 @@
         border-radius: 0 0 35px 35px ;
     }
 
-
     .activity--odd {
         height:805px;
         gap: 45px;
@@ -296,5 +295,17 @@
         height:380px;
     }
 
+    /* FOOTER */
+    footer {
+        border:5px solid red;
+        width:100%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container div {
+        width:100%;
+    }
 
 }

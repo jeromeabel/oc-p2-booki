@@ -21,7 +21,7 @@ header,
 main,
 footer {
     width: 100%;
-    border display: block;
+    display: block;
 }
 
 ul {
@@ -480,6 +480,7 @@ footer {
 
 footer p {
     font-weight: 600;
+    font-size:18px;
 }
 
 footer ul {
