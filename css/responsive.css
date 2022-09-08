@@ -148,7 +148,7 @@
     .popular {
         border-radius: 0;
         width: 100%;
-        padding: 80px 44px 0px 40px;
+        padding: 45px 44px 0px 40px;
     }
 
     .popular__header h2 {
@@ -162,7 +162,7 @@
     }
 
     .popular__list {
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 28px;
         gap:22px;
     }

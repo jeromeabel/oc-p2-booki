@@ -1,14 +1,12 @@
 # TODO
 ## ⏳ Doing
-- [ ] Hébergements - mobile
-
+- [ ] Activités - desktop
+- [ ] Activités - mobile
 
 ## 🎯 To do
-- [ ] Cartes cliquables dans son intégralité
 - [ ] img (display: block; max-width: 100%) / object-fit
 - [ ] Plusieurs formats pour les images (responsive) avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
-- [ ] Classes de couleurs : fond et texte ?
-- [ ] Clean CSS naming : DRY (refactoring)
+- [ ] Clean CSS naming : DRY (refactoring), couleurs, ...
 - [ ] CSS Responsive Tablets ?
 - [ ] Compatible pour Chrome et Mozilla
 - [ ] Validations w3c html et css
@@ -31,9 +29,6 @@
 - [x] Filtres - barre de recherche - desktop
 - [x] Filtres - barre de recherche - mobile
 - [x] Filtres - hover boutons
-- [X] Hébergements - desktop
-
-
-
-
-
+- [x] Hébergements - desktop
+- [x] Hébergements : cartes cliquables
+- [x] Hébergements - mobile

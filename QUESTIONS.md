@@ -8,6 +8,7 @@ Logo paddint-left ?
 nav centrage vertical ? pas pixel perfect padding: 55px 0; /* alignement vertical */
 donner une taille à une image : pourquoi l'image est bizarrement coupée ?
 
+responsive logo : 3x srcset
 
 ? boutons avec cercle icone qui passe devant : translateX ou overflow (notes techniques)?
 Filtres - boutons - desktop & mobile (idem ?) : flex out+in, icone/cercle (dépasse légèrement avec overflow ? carré+padding), survol, attention à padding/margin
