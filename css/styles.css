@@ -74,7 +74,7 @@ nav a:hover, .link-active {
 
 /* ------ FILTERS ------ */
 #filters > h1 {
-    font-size:22px;
+    font-size:44px;
     margin:0;
 }
 
@@ -117,7 +117,6 @@ nav a:hover, .link-active {
 .filters-form-submit-mobile { 
     display:none;
 }
-
 
 /* ------ ACCOMODATIONS ------ */*
 

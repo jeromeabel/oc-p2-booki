@@ -9,6 +9,8 @@
         margin:auto 0;
         height:auto;
     }
+
+
 }
 
 /* Small devices : phones */
@@ -49,6 +51,52 @@
         border-bottom-color:#0065FC;
         border-top-color:transparent;
         color: #0065FC;
+    }
+
+    /* FILTERS */
+
+    #filters > h1 {
+        font-size:22px;
+        margin:0;
+    }
+    
+    #filters p {
+        margin:5px 0;
+    }
+    
+    .filters-form {
+        margin:50px 0;
+        height:100px;
+        font-size: 35px;
+    }
+    
+    .filters-form-icon {
+        width:50px;
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f2f2f2;
+        border-radius: 15px 0px 0px 15px;
+    }
+    
+    .filters-form-input {
+        border: 1px solid #F2F2F2;
+        font-weight: 600;
+        padding-left:20px;
+    }
+    
+    .filters-form-submit {
+        background-color: #0065FC;
+        color: #fff;
+        border-style: none;
+        font-weight: 600;
+        border-radius: 0px 15px 15px 0px;
+        padding:0 20px;
+    }
+    
+    .filters-form-submit-mobile { 
+        display:none;
     }
 
 }

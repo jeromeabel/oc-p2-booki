@@ -39,7 +39,20 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <img alt="Logo de Booki" src="./images/logo/Booki.png" srcset="./images/logo/Booki@3x.png 3x">
+            <picture>
+                <source
+                media="(max-width:768px)"
+                srcset="./images/logo/Booki@3x.png"
+              />
+              <img
+               src="./images/logo/Booki.png"
+                alt="Logo de Booki"
+                style="width: auto"
+              />
+            </picture>
+            <!-- </picture>
+                <img alt="Logo de Booki" src="./images/logo/Booki.png" srcset="./images/logo/Booki@3x.png 3x">
+            </picture> -->
             <nav>
                 <ul>
                     <li><a href="#accommodations" title="Hébergements" class="link-active">Hébergements</a></li>
