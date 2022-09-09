@@ -34,6 +34,12 @@ a {
     text-decoration: none;
 }
 
+/* img {
+    display: block;
+    max-width:100%;
+    height:auto;
+} */
+
 /* ------ HEADER ------ */
 header .container {
     display: flex;
@@ -62,7 +68,7 @@ nav a { /* ? ajouter une classe ou nav ul li a */
 }
 
 nav a:hover, .link-active {
-    border-top:2px solid #0065FC;
+    border-top-color: #0065FC;
     color: #0065FC;
 }
 

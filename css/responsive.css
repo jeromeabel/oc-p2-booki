@@ -1,15 +1,26 @@
 /* Medium devices : tablets  & Phones */
 @media (max-width: 992px) {
-    /* ------ HEADER ------ */
+
+    body {
+        font-size: 22px;
+    }
+
 
 }
 
 /* Small devices : phones */
 @media (max-width: 768px) {
 
+
+    body {
+        font-size: 32px;
+    }
+
     .container {
         padding:0;
     }
+
+    /* ------ HEADER ------ */
 
     header .container {
         flex-direction: column;
@@ -17,24 +28,28 @@
     }
 
     header img {
-        height:70px; /* ? sur le svg 60px, avec pixel ?*/
+        margin:auto;
+        height:auto;
     }
 
-    header nav { border:1px solid red; width:100%;}
+    header nav { 
+        width:100%;
+    }
 
-    nav ul { }
     nav li { 
         flex:1;
         text-align: center;
     }
 
     nav a {
-        border-top:2px solid transparent;
-        border-bottom:2px solid transparent;
+        border-color: transparent;
+        border-width: 5px;
+        padding: 30px 0;
     }
     
     nav a:hover, .link-active {
-        border-bottom:2px solid #0065FC;
+        border-bottom-color:#0065FC;
+        border-top-color:transparent;
         color: #0065FC;
     }
 
