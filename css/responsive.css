@@ -5,7 +5,10 @@
         font-size: 22px;
     }
 
-
+    header img {
+        margin:auto 0;
+        height:auto;
+    }
 }
 
 /* Small devices : phones */
@@ -25,11 +28,6 @@
     header .container {
         flex-direction: column;
         height: 265px;
-    }
-
-    header img {
-        margin:auto;
-        height:auto;
     }
 
     header nav { 

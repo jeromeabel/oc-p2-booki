@@ -9,12 +9,12 @@
 - 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 - utiliser les pixels et les pourcentages plutôt que les REM et les EM
 ## ⏳ Doing
-- [ ] Header - desktop : flexbox, blue border
-- [ ] Header - tablet & mobile
-
-## 🎯 To do
+- [x] Header - desktop : flexbox, blue border
+- [x] Header - tablet & mobile
 - [ ] Filters - barre de recherche - desktop  : positionnement absolu, display:none loupe, border-radius
 - [ ] Filters - barre de recherche - tablet & mobile : border-radius
+
+## 🎯 To do
 - [ ] Filters - boutons : flex in & out,  margin/padding en px, pas de différences entre devices, partie gauche dépasse, :hover
 - [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
 - [ ] Popular accomodations - card : idem
