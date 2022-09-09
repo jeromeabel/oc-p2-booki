@@ -1,7 +1,26 @@
 /* Desktop first : du plus grand au plus petit */
 /* En général : ligne/colonne, centre, largeur, ordre */
 /* Medium devices : tablets ( + Phones) */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .activity__grid {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 700px;
+    }
+
+    .activity--pair, .activity--odd {
+        /* flex: 1; */
+        flex: auto;
+        padding: 0;
+        /* min-width: 250px; */
+        /* height: 200px !important; */
+    }
+
+    .activity__card {
+        
+        height: 200px !important;
+    }
+}
 
 /* Small devices : phones */
 @media (max-width: 768px) {
@@ -297,7 +316,7 @@
 
     /* FOOTER */
     footer {
-        border:5px solid red;
+        outline:2px solid red;
         width:100%;
     }
     .footer-container {
