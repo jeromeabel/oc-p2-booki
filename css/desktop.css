@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -34,22 +35,21 @@ a {
     text-decoration: none;
 }
 
-/* img {
+img {
     display: block;
-    max-width:100%;
-    height:auto;
-} */
+    width:100%;
+}  
 
 /* ------ HEADER ------ */
 header .container {
     display: flex;
-    align-items: center; /* ? != maquette  */
+    align-items: center;
     justify-content: space-between;
     height: 130px;
 }
 
-header img { /* ? ajouter une classe .logo */
-    height:50px; /* ? sur le svg 60px, avec pixel perfect */
+.logo { 
+    width:100px;
 }
 
 nav {
@@ -74,7 +74,7 @@ nav a:hover, .link-active {
 
 /* ------ FILTERS ------ */
 #filters > h1 {
-    font-size:44px;
+    font-size:22px;
     margin:0;
 }
 

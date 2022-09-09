@@ -5,9 +5,15 @@
         font-size: 22px;
     }
 
-    header img {
-        margin:auto 0;
-        height:auto;
+    /* header img {
+        display: block;
+        justify-self: center;
+        height:50%;
+        outline: 1px solid red;
+    } */
+
+    .logo { 
+        width:150px;
     }
 
 
@@ -17,6 +23,7 @@
 @media (max-width: 768px) {
 
 
+    /* ------ BASE ------ */
     body {
         font-size: 32px;
     }
@@ -26,13 +33,20 @@
     }
 
     /* ------ HEADER ------ */
-
     header .container {
         flex-direction: column;
+        justify-content: space-between;
         height: 265px;
     }
 
-    header nav { 
+    .logo { 
+        outline:1px solid red;
+        margin: auto 0;
+        width:200px;
+    }
+
+    nav { 
+        outline:1px solid green;
         width:100%;
     }
 
@@ -42,7 +56,8 @@
     }
 
     nav a {
-        border-color: transparent;
+        border-top-color: transparent;
+        border-bottom-color:#F2F2F2;
         border-width: 5px;
         padding: 30px 0;
     }

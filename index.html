@@ -23,13 +23,14 @@
     <!-- Import Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap">
 
     <!-- Import Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Styles "Desktop first"-->
+    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
     <title>Booki / Accueil</title>
@@ -39,20 +40,10 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <picture>
-                <source
-                media="(max-width:768px)"
-                srcset="./images/logo/Booki@3x.png"
-              />
-              <img
-               src="./images/logo/Booki.png"
-                alt="Logo de Booki"
-                style="width: auto"
-              />
+            <picture class="logo">
+                <source media="(max-width:768px)" srcset="./images/logo/Booki@3x.png" >
+                <img src="./images/logo/Booki.png" alt="Logo de Booki">
             </picture>
-            <!-- </picture>
-                <img alt="Logo de Booki" src="./images/logo/Booki.png" srcset="./images/logo/Booki@3x.png 3x">
-            </picture> -->
             <nav>
                 <ul>
                     <li><a href="#accommodations" title="Hébergements" class="link-active">Hébergements</a></li>
@@ -74,7 +65,7 @@
                 <form class="filters-form">
                     <div class="filters-form-icon"><i class="fa-solid fa-location-dot"></i></div>
                     <input class="filters-form-input" type="text" value="Marseille, France">
-                    <input class="filters-form-submit filters-form-submit-desktop" type="submit" value="Rechercher" >
+                    <input class="filters-form-submit filters-form-submit-desktop" type="submit" value="Rechercher">
                     <input class="filters-form-submit filters-form-submit-mobile fa-solid fa-magnifying-glass"
                         type=“submit” value="&#xf002">
                 </form>
@@ -88,7 +79,7 @@
             <!-- Section : activities -->
             <section id="activities">
             </section> <!-- activities -->
-            
+
         </div> <!-- container -->
     </main>
 
