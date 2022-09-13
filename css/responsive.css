@@ -9,7 +9,13 @@
         width:150px;
     }
 
+    .form {
+        height:75px;
+    }
 
+    .form-icon {
+        min-width:75px;
+    }
 }
 
 /* Small devices : phones */
@@ -60,7 +66,6 @@
     }
 
     /* FILTERS */
-
     #filters > h1 {
     }
     
@@ -88,13 +93,38 @@
         transform: translateX(-35px);
     }
 
-
     .form-btn-mobile { 
         display: inline-block;
     }
 
     .form-btn-desktop { 
         display: none;
+    }
+
+    /* FILTERS BTN */
+    .filters-btn-container {
+        /* gap: 20px 20px;*/
+        /* font-size: 32px; inherit*/
+    }
+    
+    .filters-btn-container p {
+        /* margin-right: 10px; */
+    }
+    
+    .filters-btn {
+        height: 100px;
+        border-width: 3px;
+        border-radius: 50px;
+    }
+    
+    .filters-btn i { 
+        transform: translateX(-4px);
+        width: 100px;
+        height: 100px;
+    }
+    
+    .filters-btn span {
+        padding:0 30px 0 12px;
     }
 
 }

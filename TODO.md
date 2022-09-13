@@ -3,20 +3,25 @@
 ## Coding Rules
 - Évitez de mixer les deux langues. 
 - Préférez l’utilisation des pixels pour les margins, les paddings et les pourcentages pour les widths.
-- kebab case : .main-wrapper
-- Privilégier FlexBox
+- Utiliser les pixels et les pourcentages plutôt que les REM et les EM
+- Naming : Kebab case : .main-wrapper
+- Privilégier Flexbox
 - Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
-- 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
-- utiliser les pixels et les pourcentages plutôt que les REM et les EM
+- Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
+
+## Différences
+- Components - search bar : flex au lieu de position:absolute
+- Components - filters btn : besoin de responsive, tailles, padding, font-size
 ## ⏳ Doing
-- [x] Header - desktop : flexbox, blue border
-- [ ] Header - tablet & mobile
-- [ ] Filters - barre de recherche - desktop  (positionnement absolu, display:none loupe, border-radius)
-- [ ] Filters - barre de recherche - tablet & mobile : border-radius
+- - [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
+- [ ] Filters - barre de recherche - desktop
+- [ ] Filters - barre de recherche - tablet & mobile
+
+
+
 
 ## 🎯 To do
-- [ ] Filters - boutons : flex in & out,  margin/padding en px, pas de différences entre devices, partie gauche dépasse, :hover
-- [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
+
 - [ ] Popular accomodations - card : idem
 - [ ] Accomodations - desktop
     - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
@@ -44,5 +49,12 @@
 - [x] Découpage mobile en .svg et .png : changements / desktop
 - [x] Intégration HTML balises sémantiques
 - [x] Création des trois profils dans les DevTools : desktop, tablet, mobile
+- [x] Header - desktop : flexbox, blue border
+- [x] Header - tablet & mobile
+- [x] Création d'un fichier "components.html" pour tester les widgets
+- [x] Components - search bar - desktop & tablet & mobile (display:none, border-radius, position absolute VS translateX())
+- [x] Components - filters btn (flex in & out, margin/padding px, pas besoin responsive, partie gauche dépasse, :hover)
+
+
 
 

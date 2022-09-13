@@ -41,7 +41,7 @@
     <header>
         <div class="container">
             <picture class="logo">
-                <source media="(max-width:768px)" srcset="./images/logo/Booki@3x.png" >
+                <source media="(max-width:768px)" srcset="./images/logo/Booki@3x.png">
                 <img src="./images/logo/Booki.png" alt="Logo de Booki">
             </picture>
             <nav>
@@ -62,13 +62,27 @@
                 <p>En plein centre ville ou en pleine nature</p>
 
                 <!-- Formulaire (non fonctionnel) -->
-                <form class="filters-form">
-                    <div class="filters-form-icon"><i class="fa-solid fa-location-dot"></i></div>
-                    <input class="filters-form-input" type="text" value="Marseille, France">
-                    <input class="filters-form-submit filters-form-submit-desktop" type="submit" value="Rechercher">
-                    <input class="filters-form-submit filters-form-submit-mobile fa-solid fa-magnifying-glass"
-                        type=“submit” value="&#xf002">
+                <form class="form">
+                    <div class="form-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <input class="form-input" type="text" value="Marseille, France">
+                    <button class="form-btn form-btn-desktop">Rechercher</button>
+                    <button class="form-btn form-btn-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
+
+                <!-- Filtres (non fonctionnels) -->
+                <div class="filters-btn-container">
+                    <p>Filtres</p>
+                    <div class="filters-btn"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></div>
+                    <div class="filters-btn"><i class="fa-solid fa-child-reaching"></i><span>Familial</span></div>
+                    <div class="filters-btn"><i class="fa-solid fa-heart"></i> <span>Romantique</span></div>
+                    <div class="filters-btn"><i class="fa-solid fa-dog"></i> <span>Animaux autorisés</span></div>
+                </div>
+
+                <div class="filters-footer">
+                    <div class="filters-footer-icon"><i class="fa-solid fa-info"></i></div>
+                    <div class="filters-footer-text"></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville.</p>
+                </div>
 
             </section> <!-- filters -->
 
