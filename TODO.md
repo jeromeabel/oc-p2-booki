@@ -9,18 +9,16 @@
 - Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
 - Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 
-## Différences
+## ❔ Diff
+- Logo position
 - Components - search bar : flex au lieu de position:absolute
 - Components - filters btn : besoin de responsive, tailles, padding, font-size
 ## ⏳ Doing
-- [ ] Components - icone i (informations)
-- [ ] Layout Filters - desktop
 - [ ] Layout Filters - tablet & mobile
-- [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
-
 
 
 ## 🎯 To do
+- [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
 - [ ] Popular accomodations - card : idem
 - [ ] Accomodations - desktop
     - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
@@ -53,6 +51,8 @@
 - [x] Création d'un fichier "components.html" pour tester les widgets
 - [x] Components - search bar - desktop & tablet & mobile (display:none, border-radius, position absolute VS translateX())
 - [x] Components - filters btn (flex in & out, margin/padding px, pas besoin responsive, partie gauche dépasse, :hover)
+- [x] Components - filters icone infos
+- [x] Layout Filters - desktop
 
 
 

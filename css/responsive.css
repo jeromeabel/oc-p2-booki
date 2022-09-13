@@ -11,10 +11,15 @@
 
     .form {
         height:65px;
+        font-size: inherit;
     }
 
     .form-icon {
         min-width:65px;
+    }
+        
+    .filters-btn-container {
+        font-size: inherit;
     }
 
     .filters-footer-icon {
@@ -110,7 +115,7 @@
     /* FILTERS BTN */
     .filters-btn-container {
         /* gap: 20px 20px;*/
-        /* font-size: 32px; inherit*/
+        font-size: 32px;
     }
     
     .filters-btn-container p {

@@ -13,7 +13,7 @@ Colors:
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .container {
@@ -84,14 +84,14 @@ nav a:hover, .link-active {
 }
 
 #filters p {
-    margin:5px 0;
+    margin:7px 0;
 }
 
 .form {
     margin: 20px 0;
     display: flex;
     height:50px;
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 
 .form-icon {
@@ -105,7 +105,7 @@ nav a:hover, .link-active {
 }
 
 .form-input {
-    padding-left:20px;
+    padding-left:18px;
     height: 100%;
     border: 1px solid #F2F2F2;
     font-weight: 600;
@@ -126,16 +126,13 @@ nav a:hover, .link-active {
 
 /* FILTERS BTN */
 .filters-btn-container {
+    margin:30px 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px 20px;
-    /* font-size: 18px; */
+    gap: 20px 25px;
+    font-size: 18px;
     font-weight: 600;
-}
-
-.filters-btn-container p {
-    margin-right: 10px;
 }
 
 .filters-btn {
@@ -169,6 +166,17 @@ nav a:hover, .link-active {
 }
 
 /* FILTERS FOOTER */
+.filters-footer {
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+    font-size: 16px;
+}
+
+.filters-footer p {
+    padding-left: 10px;
+}
+
 .filters-footer-icon {
     width: 25px;
     height: 25px;
