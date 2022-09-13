@@ -43,7 +43,7 @@ fatal: Échec d'authentification pour 'https://github.com/jeromeabel/oc-p2-booki
 - * { box-sizing: border-box ; } ?
 - id pour sections, même celles dans liens ?
 - Unités px pour font, witdh, height, margin, padding ?
-- header : Menu horizontal avec image logo : trop compliqué ? Alternative avec inline-table ?
+- header : menu horizontal avec image logo : trop compliqué ? Alternative avec inline-table ?
 - header : menu image dans une div ?
 - header : menu li : border top et bottom : 3px solid white ?
 - header : aucuns changements pour tablette

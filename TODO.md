@@ -10,8 +10,8 @@
 - utiliser les pixels et les pourcentages plutôt que les REM et les EM
 ## ⏳ Doing
 - [x] Header - desktop : flexbox, blue border
-- [x] Header - tablet & mobile
-- [ ] Filters - barre de recherche - desktop  : positionnement absolu, display:none loupe, border-radius
+- [ ] Header - tablet & mobile
+- [ ] Filters - barre de recherche - desktop  (positionnement absolu, display:none loupe, border-radius)
 - [ ] Filters - barre de recherche - tablet & mobile : border-radius
 
 ## 🎯 To do
@@ -26,9 +26,11 @@
 - [ ] Activities - tablet & mobile
 - [ ] Footer - desktop
 - [ ] Footer - tablet & mobile
-- [ ] Images (responsive) avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
+- [ ] Images (responsive) 
+    - avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
+    - Il faudra choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
 - [ ] Compatible pour Chrome et Mozilla
-- [ ] Validations w3c html et css
+- [ ] Validations W3C HTML et CSS
 
 ## ✅ Done
 - [x] Création d'un dépôt sur github
