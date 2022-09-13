@@ -13,15 +13,14 @@
 - Components - search bar : flex au lieu de position:absolute
 - Components - filters btn : besoin de responsive, tailles, padding, font-size
 ## ⏳ Doing
-- - [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
-- [ ] Filters - barre de recherche - desktop
-- [ ] Filters - barre de recherche - tablet & mobile
-
+- [ ] Components - icone i (informations)
+- [ ] Layout Filters - desktop
+- [ ] Layout Filters - tablet & mobile
+- [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
 
 
 
 ## 🎯 To do
-
 - [ ] Popular accomodations - card : idem
 - [ ] Accomodations - desktop
     - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
