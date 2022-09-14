@@ -206,12 +206,11 @@ nav a:hover,
     /* ? épaississement */
 }
 
-
 /* ------ ACCOMODATIONS LAYOUT ------ */
 
 #accomodations {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     margin-top: 30px;
 }
 
@@ -220,7 +219,10 @@ nav a:hover,
 }
 
 .acc-container {
-    flex:2;
+    /* ? flex:2; */
+    width: 65%;
+    margin-right:3%;
+    
     padding: 25px 35px;
     /* padding: 40px 35px 20px 35px; */
     background-color: #F2F2F2;
@@ -228,7 +230,8 @@ nav a:hover,
 }
 
 .pop-container {
-    flex:1;
+    /* ? flex:1; */
+    width: 32%;
     padding: 25px 35px;
     /* padding: 25px 35px 0px 35px; */
     background-color: #F2F2F2;
@@ -238,8 +241,8 @@ nav a:hover,
 .acc-grid {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 30px 32px;
-    padding: 25px 0; */
+    gap:30px;
+    /* padding: 25px 0; */
     font-size: 14px;
 }
 
@@ -247,7 +250,6 @@ nav a:hover,
 /* ------ ACCOMODATIONS CARD ------ */
 
 .acc-card {
-    /* width: 25%; */
     width: 245px;
     height: 200px;
     padding: 5px;
@@ -296,7 +298,16 @@ nav a:hover,
 
 .acc-card-body .fa-star {
     font-size: 12px;
-    padding-right: 1px;
+}
+
+/* ACCOMODATIONS */
+.acc-footer {
+    margin-top:45px;
+}
+
+.acc-footer a {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* ------ POPULAR ACCOMODATIONS CARD ------ */
