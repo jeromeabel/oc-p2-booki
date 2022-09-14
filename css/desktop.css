@@ -21,7 +21,7 @@ body {
     /* centrage horizontal */
     max-width: 1440px;
     /* desktop first */
-    padding: 0 55px;
+    padding: 0 50px;
 }
 
 header,
@@ -69,10 +69,9 @@ nav ul {
 }
 
 nav a {
-    /* ? ajouter une classe menu ou nav ul li a */
     display: block;
-    padding: 45px 35px;
     /* ? centrage vertical */
+    padding: 47px 35px;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 }
@@ -204,23 +203,28 @@ nav a:hover,
 
 #accomodations {
     display: flex;
-    flex-direction: row;
-    gap: 45px 45px;
-    margin-top: 20px;
+    gap: 40px;
+    margin-top: 30px;
 }
 
-.accacc {
-    flex:3;
+#accomodations h2 {
+    font-size:22px;
+}
+
+.acc-container {
+    flex:2;
+    padding: 25px 35px;
     /* padding: 40px 35px 20px 35px; */
     background-color: #F2F2F2;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
-.poppop {
+.pop-container {
     flex:1;
+    padding: 25px 35px;
     /* padding: 25px 35px 0px 35px; */
     background-color: #F2F2F2;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 
