@@ -221,19 +221,16 @@ nav a:hover,
 .acc-container {
     /* ? flex:2; */
     width: 65%;
-    margin-right:3%;
-    
+    margin-right: 2.8%;
     padding: 25px 35px;
-    /* padding: 40px 35px 20px 35px; */
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
 .pop-container {
     /* ? flex:1; */
-    width: 32%;
+    width: 31%;
     padding: 25px 35px;
-    /* padding: 25px 35px 0px 35px; */
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -245,7 +242,6 @@ nav a:hover,
     /* padding: 25px 0; */
     font-size: 14px;
 }
-
 
 /* ------ ACCOMODATIONS CARD ------ */
 
@@ -300,14 +296,25 @@ nav a:hover,
     font-size: 12px;
 }
 
-/* ACCOMODATIONS */
+/* ACCOMODATIONS FOOTER */
 .acc-footer {
     margin-top:45px;
 }
-
 .acc-footer a {
     font-size: 18px;
     font-weight: 600;
+}
+
+/* POPULAR */
+.pop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pop-header > i {
+    font-size: 20px;
+    padding: 2px;
 }
 
 /* ------ POPULAR ACCOMODATIONS CARD ------ */
