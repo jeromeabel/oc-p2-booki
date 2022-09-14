@@ -1,11 +1,12 @@
 # TODO
 
 ## ⏳ Doing
+- [x] Images (responsive) "le format le plus adapté par rapport à la résolution et au temps de chargement."
+- [x] Compatible pour Chrome et Mozilla
+- [x] Validations W3C HTML et CSS
 
 ## 🎯 To do
-- [ ] Images (responsive) "le format le plus adapté par rapport à la résolution et au temps de chargement."
-- [x] Compatible pour Chrome et Mozilla
-- [ ] Validations W3C HTML et CSS
+
 
 ## ✅ Done
 - [x] Création d'un dépôt sur github
