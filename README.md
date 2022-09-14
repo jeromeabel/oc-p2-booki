@@ -8,6 +8,17 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 
 1440px
 
+
+## ❔ Diff
+- Logo position
+- Components - search bar : flex au lieu de position:absolute
+- Components - filters btn : besoin de responsive, tailles, padding, font-size
+- Components - card : flex au lieu de position:absolute
+
+## Méthodes
+- Pixels : figma/measure, inkscape, pixel perfect extensions
+- Inspecteur d'éléments
+ 
 ## Ressources
 - Menu bar (ul li a) : https://dev.to/nicm42/links-inside-li-that-take-up-all-the-space-4c37, https://juliencrego.com/astuces/creer-un-menu-horizontal-simplissime-en-css/
 - Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp

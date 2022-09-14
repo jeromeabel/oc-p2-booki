@@ -9,11 +9,7 @@
 - Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
 - Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 
-## ❔ Diff
-- Logo position
-- Components - search bar : flex au lieu de position:absolute
-- Components - filters btn : besoin de responsive, tailles, padding, font-size
-- Components - card : flex au lieu de position:absolute
+
 
 ## ⏳ Doing
 - [ ] Components - popular accomodations - card : idem
