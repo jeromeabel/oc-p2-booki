@@ -212,7 +212,7 @@ nav a:hover,
 #accomodations {
     display: flex;
     /* gap: 40px; */
-    margin-top: 30px;
+    margin: 30px auto;
     font-size: 14px;
 }
 
@@ -375,6 +375,14 @@ nav a:hover,
 }
 
 /* ACTIVITY LAYOUT */
+#activities {
+    margin: 55px auto;
+}
+
+#activities h2 {
+    font-size: 22px;
+}
+
 .activity-grid {
     display: flex;
     flex-direction: column;
@@ -417,3 +425,33 @@ nav a:hover,
 }
 
 /* ------ FOOTER ------ */
+/* ------ FOOTER ------ */
+footer {
+    margin: 0;
+    background-color: #F2F2F2;
+    padding: 40px 10px;
+}
+
+/* .footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container div {
+    width:33%;
+}
+
+footer p {
+    font-weight: 600;
+    font-size:18px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    padding: 6px 0;
+} */
