@@ -1,14 +1,12 @@
 # TODO
 
 ## ⏳ Doing
-- [ ] Layout Footer - desktop
-- [ ] Layout Footer - tablet & mobile
 
 ## 🎯 To do
 - [ ] Images (responsive) 
     - avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
     - choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
-- [ ] Compatible pour Chrome et Mozilla : préfixe flex ?
+- [ ] Compatible pour Chrome et Mozilla : préfixe flex
 - [ ] Validations W3C HTML et CSS
 
 ## ✅ Done
@@ -40,3 +38,5 @@
 - [x] Components - activity card : position:absolute, object-fit:cover
 - [x] Layout Activities - desktop : conteneur / activité + classe (hauteur)
 - [x] Layout Activities - tablet & mobile
+- [x] Layout Footer - desktop
+- [x] Layout Footer - tablet & mobile
