@@ -11,12 +11,9 @@
 
 
 ## ⏳ Doing
-- [ ] Layout Accomodations - desktop
-    - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
-    - ajouter cartes dans chaque conteneur
+- [ ] Layout Accomodations - tablet & mobile : ordre, couleurs de fond
 
 ## 🎯 To do
-- [ ] Layout Accomodations - tablet & mobile : ordre, couleurs de fond
 - [ ] Layout ctivities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
 - [ ] Layout Activities - tablet & mobile
 - [ ] Layout Footer - desktop
@@ -49,3 +46,6 @@
 - [x] Layout Filters - tablet & mobile
 - [x] Components - accomodations card : taille fixe possible, image (border-radius), hover, cliquable
 - [x] Components - popular accomodations - card : idem
+- [x] Layout Accomodations - desktop
+    - [x] deux conteneurs 2/3 et 1/3, flex et %
+    - [x] ajouter cartes dans chaque conteneur

@@ -212,6 +212,7 @@ nav a:hover,
     display: flex;
     /* gap: 40px; */
     margin-top: 30px;
+    font-size: 14px;
 }
 
 #accomodations h2 {
@@ -240,7 +241,36 @@ nav a:hover,
     flex-wrap: wrap;
     gap:30px;
     /* padding: 25px 0; */
-    font-size: 14px;
+    /* font-size: 14px; */
+}
+
+.pop-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* ACC FOOTER */
+.acc-footer {
+    margin-top:45px;
+}
+
+.acc-footer a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* POP HEADER */
+.pop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pop-header > i {
+    font-size: 20px;
+    padding: 2px;
 }
 
 /* ------ ACCOMODATIONS CARD ------ */
@@ -297,27 +327,6 @@ nav a:hover,
     font-size: 12px;
 }
 
-/* ACCOMODATIONS FOOTER */
-.acc-footer {
-    margin-top:45px;
-}
-.acc-footer a {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* POPULAR */
-.pop-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pop-header > i {
-    font-size: 20px;
-    padding: 2px;
-}
-
 /* ------ POPULAR ACCOMODATIONS CARD ------ */
 
 .pop-card {
@@ -345,6 +354,10 @@ nav a:hover,
     width: auto;
 }
 
+.pop-card-img .img-vertical {
+    width:100%;
+}
+
 .pop-card:hover {
     box-shadow: 2px 2px 10px #888;
 }
@@ -370,7 +383,6 @@ nav a:hover,
     position: absolute;
     bottom:10px;
 }
-
 
 /* ------ ACTIVITIES ------ */
 

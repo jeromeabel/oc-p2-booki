@@ -14,7 +14,8 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - Components - search bar : flex au lieu de position:absolute
 - Components - filters btn : besoin de responsive, tailles, padding, font-size
 - Components - card : flex au lieu de position:absolute
-- Layout - accomodation : ?? flex au lieu de width %, gap au lieu de margin
+- Components - card pop : ? img-vertical
+- Layout - accomodation : ? flex au lieu de width %, gap au lieu de margin
 
 ## Méthodes
 - Pixels : figma/measure, inkscape, pixel perfect extensions
