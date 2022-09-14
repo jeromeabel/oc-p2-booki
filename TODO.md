@@ -1,8 +1,7 @@
 # TODO
 
 ## ⏳ Doing
-- [ ] Components - activity card
-- [ ] Layout Activities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
+- [ ] Layout Activities - desktop : conteneur / activité + classe (hauteur)
 - [ ] Layout Activities - tablet & mobile
 - [ ] Layout Footer - desktop
 - [ ] Layout Footer - tablet & mobile
@@ -40,3 +39,5 @@
     - [x] deux conteneurs 2/3 et 1/3, flex et %
     - [x] ajouter cartes dans chaque conteneur
 - [x] Layout Accomodations - tablet & mobile : ordre, couleurs de fond
+- [x] Components - activity card : position:absolute, object-fit:cover
+

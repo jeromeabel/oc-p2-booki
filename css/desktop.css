@@ -50,10 +50,11 @@ img {
 /* Utils */
 .blue { color:#0065FC; }
 .grey { color:#ddd; }
-.h100 { height:100%; }
-.h60 { height:60%; }
-.h40 { height:40%; }
-.h50 { height:50%; }
+.h-100 { height:100%; }
+/* large, medium, small */
+.h-l { height:53%; }
+.h-m { height:45%; }
+.h-s { height:37%; }
 
 /* ------ HEADER ------ */
 header .container {
@@ -373,10 +374,21 @@ nav a:hover,
     bottom:10px;
 }
 
+/* ACTIVITY LAYOUT */
+.activity-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    /* column-gap: 45px; */
+    height: 445px;
+}
+
 /* ------ ACTIVITY CARD ------ */
 
 .activity-card {
-    width:25%;
+    width: 22.5%;
     box-shadow: 2px 2px 10px #bbb;
     border-radius: 20px;
     background-color: #fff;
@@ -387,7 +399,7 @@ nav a:hover,
     /* width: 100%;*/
     height: 100%;
     object-fit: cover; 
-    border-radius: 20px;
+    border-radius: 20px 20px 35px 35px;
 }
 
 .activity-card h3 {
