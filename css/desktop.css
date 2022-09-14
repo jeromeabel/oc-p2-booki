@@ -269,7 +269,8 @@ nav a:hover,
 }
 
 /* autre méthode de centrage */
-/* .acc-card-img img {
+/* 
+.acc-card-img img {
     width: 100%;   
     position: absolute;
     top: 50%;
