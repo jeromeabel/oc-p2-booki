@@ -8,6 +8,14 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 
 1440px
 
+## Coding Rules
+- Évitez de mixer les deux langues. (?activites/4_small/)
+- Préférez l’utilisation des pixels pour les margins, les paddings et les pourcentages pour les widths.
+- Utiliser les pixels et les pourcentages plutôt que les REM et les EM
+- Naming Kebab case : .main-wrapper
+- Privilégier Flexbox
+- Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
+- Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 
 ## ❔ Diff
 - Erreurs affichages Chrome DevTools / Responsive + live server
