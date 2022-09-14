@@ -16,7 +16,7 @@
     - ajouter cartes dans chaque conteneur
 
 ## 🎯 To do
-- [ ] Layout Accomodations - tablet & mobile : l’ordre d’affichage des deux conteneurs change, couleurs de fond
+- [ ] Layout Accomodations - tablet & mobile : ordre, couleurs de fond
 - [ ] Layout ctivities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
 - [ ] Layout Activities - tablet & mobile
 - [ ] Layout Footer - desktop
