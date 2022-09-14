@@ -431,7 +431,7 @@ footer {
     padding: 40px 10px;
 }
 
-/* .footer-container {
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
@@ -445,12 +445,6 @@ footer p {
     font-size:18px;
 }
 
-footer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 footer li {
     padding: 6px 0;
-} */
+}

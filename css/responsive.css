@@ -61,6 +61,10 @@
         height:200px;
     }
 
+    .footer-container div {
+        width:25%;
+    }
+
 }
 
 /* Small devices : phones */
@@ -321,6 +325,29 @@
         padding: 40px 0 0 40px;
         border-radius: 0 0 35px 35px;
         font-size: 32px;
+    }
+
+    /* FOOTER */
+    footer {
+        width:100%;
+        padding:30px 60px 100px 60px;
+    } 
+
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-container div {
+        width:100%;
+        margin-top:35px;
+    }
+
+    .footer-container p {
+        font-size: 35px;
+    }
+
+    footer li {
+        padding: 10px 0;
     }
 
 }
