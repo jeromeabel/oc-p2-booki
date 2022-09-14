@@ -47,6 +47,14 @@ img {
     width: 100%;
 }
 
+.blue {
+    color:#0065FC;
+}
+
+.grey {
+    color:#ddd;
+}
+
 /* ------ HEADER ------ */
 header .container {
     display: flex;
@@ -225,6 +233,14 @@ nav a:hover,
     /* padding: 25px 35px 0px 35px; */
     background-color: #F2F2F2;
     border-radius: 20px;
+}
+
+.acc-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px 32px;
+    padding: 25px 0; */
+    font-size: 14px;
 }
 
 
