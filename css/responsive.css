@@ -269,7 +269,6 @@
         padding-left: 40px;
     }
 
-
     .pop-card-body p {
         margin-top:20px;
     }
@@ -283,4 +282,23 @@
         left: 40px;
         bottom: 20px;
     }
+
+    /* ACTIVITY CARD */
+    .activity-card {
+        width:100%;
+        border-radius:35px; 
+        height:380px;
+    }
+    
+    .activity-card img {
+        border-radius: 35px;
+    }
+
+    .activity-card h3 {
+        height: 110px;
+        padding: 40px 0 0 40px;
+        border-radius: 0 0 35px 35px;
+        font-size:32px;
+    }
+
 }
