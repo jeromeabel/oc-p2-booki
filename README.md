@@ -10,6 +10,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 
 
 ## ❔ Diff
+- Erreurs affichages Chrome DevTools / Responsive + live server
 - Logo position
 - Components - search bar : flex au lieu de position:absolute
 - Components - filters btn : besoin de responsive, tailles, padding, font-size
