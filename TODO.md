@@ -4,7 +4,7 @@
 - Évitez de mixer les deux langues. 
 - Préférez l’utilisation des pixels pour les margins, les paddings et les pourcentages pour les widths.
 - Utiliser les pixels et les pourcentages plutôt que les REM et les EM
-- Naming : Kebab case : .main-wrapper
+- Naming Kebab case : .main-wrapper
 - Privilégier Flexbox
 - Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
 - Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
@@ -13,24 +13,23 @@
 - Logo position
 - Components - search bar : flex au lieu de position:absolute
 - Components - filters btn : besoin de responsive, tailles, padding, font-size
-## ⏳ Doing
-- [ ] Layout Filters - tablet & mobile
+- Components - card : flex au lieu de position:absolute
 
+## ⏳ Doing
+- [ ] Components - popular accomodations - card : idem
 
 ## 🎯 To do
-- [ ] Accomodations - card : (taille fixe possible) image, titre + infos + stars, + hover effect + anchor, border-radius sur image, cartes cliquables
-- [ ] Popular accomodations - card : idem
-- [ ] Accomodations - desktop
+- [ ] Layout Accomodations - desktop
     - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
     - ajouter cartes dans chaque conteneur
-- [ ] Accomodations - tablet & mobile : l’ordre d’affichage des deux conteneurs change, couleurs de fond
-- [ ] Activities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
-- [ ] Activities - tablet & mobile
-- [ ] Footer - desktop
-- [ ] Footer - tablet & mobile
+- [ ] Layout Accomodations - tablet & mobile : l’ordre d’affichage des deux conteneurs change, couleurs de fond
+- [ ] Layout ctivities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
+- [ ] Layout Activities - tablet & mobile
+- [ ] Layout Footer - desktop
+- [ ] Layout Footer - tablet & mobile
 - [ ] Images (responsive) 
     - avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
-    - Il faudra choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
+    - choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
 - [ ] Compatible pour Chrome et Mozilla
 - [ ] Validations W3C HTML et CSS
 
@@ -53,7 +52,5 @@
 - [x] Components - filters btn (flex in & out, margin/padding px, pas besoin responsive, partie gauche dépasse, :hover)
 - [x] Components - filters icone infos
 - [x] Layout Filters - desktop
-
-
-
-
+- [x] Layout Filters - tablet & mobile
+- [x] Components - accomodations card : taille fixe possible, image (border-radius), hover, cliquable
