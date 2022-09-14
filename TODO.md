@@ -3,10 +3,8 @@
 ## ⏳ Doing
 
 ## 🎯 To do
-- [ ] Images (responsive) 
-    - avec picture : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
-    - choisir le format le plus adapté par rapport à la résolution et au temps de chargement.
-- [ ] Compatible pour Chrome et Mozilla : préfixe flex
+- [ ] Images (responsive) "le format le plus adapté par rapport à la résolution et au temps de chargement."
+- [x] Compatible pour Chrome et Mozilla
 - [ ] Validations W3C HTML et CSS
 
 ## ✅ Done

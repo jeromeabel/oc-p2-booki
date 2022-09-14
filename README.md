@@ -49,3 +49,5 @@ Nom_Prenom_1_code_092022.zip
 - mosaic : https://www.quackit.com/css/flexbox/examples/, https://tobiasahlin.com/blog/common-flexbox-patterns/#masonry-or-mosaic
 - Structured Data Testing Tool : cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
 - Schema creator : créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 
+- https://validator.w3.org/
+- https://jigsaw.w3.org/css-validator/
