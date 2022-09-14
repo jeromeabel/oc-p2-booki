@@ -50,6 +50,18 @@
         font-size: 16px;
     }
 
+    .activity-grid {
+        height: auto;
+        flex-direction: row;
+        row-gap:40px;
+    }
+
+
+    .activity-card {
+        width: 47.5%;
+        height:200px;
+    }
+
 }
 
 /* Small devices : phones */
