@@ -36,6 +36,19 @@
         font-size: 22px;
     }
 
+    .acc-container {
+        width: 48.5%;
+    }
+
+    .acc-card {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .pop-card {
+        height: 200px;
+        font-size: 16px;
+    }
 
 }
 
