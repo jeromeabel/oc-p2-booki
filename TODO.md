@@ -1,7 +1,7 @@
 # TODO
 
 ## ⏳ Doing
-- [ ] Layout Activities - desktop : conteneur / activité + classe (hauteur)
+- [x] Layout Activities - desktop : conteneur / activité + classe (hauteur)
 - [ ] Layout Activities - tablet & mobile
 - [ ] Layout Footer - desktop
 - [ ] Layout Footer - tablet & mobile

@@ -56,7 +56,6 @@
         row-gap:40px;
     }
 
-
     .activity-card {
         width: 47.5%;
         height:200px;
@@ -295,6 +294,17 @@
         bottom: 20px;
     }
 
+    /* ACTIVITIES */
+    #activities {
+        padding: 10px 40px 40px 40px;
+    }
+
+    #activities h2 {
+        font-size: 44px;
+        margin:0;
+        margin-bottom:55px;
+    }
+
     /* ACTIVITY CARD */
     .activity-card {
         width: 100%;
@@ -310,7 +320,7 @@
         height: 110px;
         padding: 40px 0 0 40px;
         border-radius: 0 0 35px 35px;
-        font-size:32px;
+        font-size: 32px;
     }
 
 }
