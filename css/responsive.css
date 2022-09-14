@@ -35,6 +35,8 @@
     .filters-footer p {
         font-size: 22px;
     }
+
+
 }
 
 /* Small devices : phones */
@@ -208,7 +210,6 @@
         width: 100%;
         border-radius: 40px;
         padding: 10px;
-        /* column-gap: 40px; */
         font-size: 28px;
     }
 

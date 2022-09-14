@@ -10,14 +10,12 @@
 - Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 
 
-
 ## ⏳ Doing
-- [ ] Components - popular accomodations - card : idem
-
-## 🎯 To do
 - [ ] Layout Accomodations - desktop
     - mise en page entre les deux conteneurs 2/3 et 1/3, flex et %
     - ajouter cartes dans chaque conteneur
+
+## 🎯 To do
 - [ ] Layout Accomodations - tablet & mobile : l’ordre d’affichage des deux conteneurs change, couleurs de fond
 - [ ] Layout ctivities - desktop : un conteneur par activité et donnez-lui une classe (hauteur)
 - [ ] Layout Activities - tablet & mobile
@@ -50,3 +48,4 @@
 - [x] Layout Filters - desktop
 - [x] Layout Filters - tablet & mobile
 - [x] Components - accomodations card : taille fixe possible, image (border-radius), hover, cliquable
+- [x] Components - popular accomodations - card : idem
