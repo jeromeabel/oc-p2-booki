@@ -226,7 +226,10 @@ nav a:hover,
 }
 
 .pop-container {
-    width: auto; /* ? flex:1; */
+    /* width: auto;  */
+    /* ? flex:1; */
+    width: 30%;
+    min-width: 350px;
     padding: 25px 35px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -235,6 +238,7 @@ nav a:hover,
 .acc-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap:30px;
 }
 
@@ -287,7 +291,8 @@ nav a:hover,
     height: 115px;
     border-radius: 15px 15px 0 0;
     overflow: hidden;
-    display: flex; /* centrage */
+    /* centrage */
+    display: flex; 
     align-items: center; 
 }
 
@@ -309,10 +314,11 @@ nav a:hover,
     font-size: 12px;
 }
 
-/* ------ POPULAR accommodationS CARD ------ */
+/* ------ POPULAR ACCOMMODATIONS CARD ------ */
 
 .pop-card {
     width: 100%;
+    min-width:300px;
     height: 145px;
     padding: 5px;
     background-color: #fff;
@@ -323,12 +329,12 @@ nav a:hover,
 }
 
 .pop-card-img {
-    width: 130px;
+    width:130px;
     overflow: hidden;
     border-radius: 15px 0 0 15px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .pop-card-img img {
@@ -345,8 +351,7 @@ nav a:hover,
 }
 
 .pop-card-body {
-    padding: 10px;
-    padding-left: 20px;
+    padding: 10px 5px 0 20px;
     position: relative;
 }
 
