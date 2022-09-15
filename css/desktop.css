@@ -205,15 +205,15 @@ nav a:hover,
     /* ? épaississement */
 }
 
-/* ------ ACCOMODATIONS LAYOUT ------ */
+/* ------ ACCOMMODATIONS LAYOUT ------ */
 
-#accomodations {
+#accommodations {
     display: flex;
     margin: 30px auto;
     font-size: 14px;
 }
 
-#accomodations h2 {
+#accommodations h2 {
     font-size:22px;
 }
 
@@ -267,7 +267,7 @@ nav a:hover,
     padding: 2px;
 }
 
-/* ------ ACCOMODATIONS CARD ------ */
+/* ------ ACCOMMODATIONS CARD ------ */
 
 .acc-card {
     width: 245px;
@@ -309,7 +309,7 @@ nav a:hover,
     font-size: 12px;
 }
 
-/* ------ POPULAR ACCOMODATIONS CARD ------ */
+/* ------ POPULAR accommodationS CARD ------ */
 
 .pop-card {
     width: 100%;

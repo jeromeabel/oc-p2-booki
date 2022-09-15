@@ -207,12 +207,12 @@
         padding: 0 20px; 
     }
 
-    /* ACCOMODATIONS */
-    #accomodations {
+    /* ACCOMMODATIONS */
+    #accommodations {
         flex-direction: column-reverse;
     }
 
-    #accomodations h2 {
+    #accommodations h2 {
         font-size: 43px;
     }
 
