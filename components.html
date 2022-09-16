@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Booki, trouver votre hébergement pour des vacances de rêve.">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Booki">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.example.com/">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:description" content="Booki, trouver votre hébergement pour des vacances de rêve.">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.min.css">
+
+    <!-- Import Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap">
+
+    <!-- Import Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Styles "Desktop first"-->
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Booki / Tests des composants</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Form</p>
+        <form class="form">
+            <div class="form-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <input class="form-input" type="text" value="Marseille, France">
+            <button class="form-btn form-btn-desktop">Rechercher</button>
+            <button class="form-btn form-btn-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+
+    <div class="container">
+        <p>Filters Buttons</p>
+        <div class="filters-btn-container">
+            <div class="filters-btn"><i class="fa-solid fa-money-bill-wave"></i><span>Économique</span></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>Information Icon</p>
+        <i class="fa-solid fa-info filters-footer-icon"></i>
+    </div>
+
+    <div class="container">
+        <p>Accommodations Card</p>
+        <article class="acc-card">
+            <a href="#" title="Ouvrir">
+                <div class="acc-card-img">
+                    <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
+                </div>
+                <div class="acc-card-body">
+                    <h3>Auberge la Cannebière</h3>
+                    <p>Nuit à partir de 25€</p>
+                    <p><i class="fa-solid fa-star blue"></i><i
+                            class="fa-solid fa-star blue"></i><i
+                            class="fa-solid fa-star blue"></i><i
+                            class="fa-solid fa-star blue"></i><i
+                            class="fa-solid fa-star grey"></i>
+                    </p> 
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="container">
+        <p>Accommodations Card</p>
+        <article class="pop-card">
+            <div class="pop-card-img">
+                <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="Hôtel Le soleil du matin">
+            </div>
+            <div class="pop-card-body">
+                <h3>Hôtel Le soleil du matin</h3>
+                <p>Nuit à partir de 128€</p>
+                <div class="pop-card-stars">
+                    <i class="fa-solid fa-star blue"></i>
+                    <i class="fa-solid fa-star blue"></i>
+                    <i class="fa-solid fa-star blue"></i>
+                    <i class="fa-solid fa-star blue"></i>
+                    <i class="fa-solid fa-star blue"></i>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="container">
+        <p>Activity Card</p>
+            <div style="height:442px">
+                <div class="activity-card h100">
+                    <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                    <h3>Vieux Port</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
