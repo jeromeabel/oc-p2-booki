@@ -40,4 +40,4 @@
 - [x] Fix card with a, flex accomodations
 - [x] Images (responsive) "le format le plus adapté par rapport à la résolution et au temps de chargement."
 - [x] Compatible pour Chrome et Mozilla
-- [x] Validations W3C HTML et CSS
+- [x] Validations W3C HTML et CSS : warning sections/header

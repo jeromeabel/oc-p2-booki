@@ -4,7 +4,7 @@ Projet Booki : transformer une maquette en site web avec HTML &amp; CSS
 Booki, une petite entreprise propose un outil de planification de vacances. Créer un prototype en intégrant la maquette en HTML et CSS.
 
 ## Livrable
-Nom_Prenom_1_code_092022.zip
+- Nom_Prenom_1_code_092022.zip
 
 ## Coding Rules
 - Évitez de mixer les deux langues. (? activites/4_small/)
@@ -15,14 +15,7 @@ Nom_Prenom_1_code_092022.zip
 - Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante
 - Breakpoints : 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes
 
-## Differences
-- Logo position
-- Components - search bar : flex au lieu de position:absolute
-- Components - filters btn : besoin de responsive, tailles, padding, font-size
-- Components - card : flex au lieu de position:absolute
-- Components - card pop : ? img-vertical
-
-## Ressources
+## Resources
 - Menu bar (ul li a) : https://dev.to/nicm42/links-inside-li-that-take-up-all-the-space-4c37, https://juliencrego.com/astuces/creer-un-menu-horizontal-simplissime-en-css/
 - Google Fonts : https://developers.google.com/fonts/docs/getting_started, https://www.w3schools.com/css/css_font_google.asp
 - Icones : https://www.w3schools.com/icons/icons_reference.asp, https://cdnjs.com/libraries/font-awesome
@@ -39,7 +32,7 @@ Nom_Prenom_1_code_092022.zip
 - positionnement ! https://developer.mozilla.org/fr/docs/Web/CSS/position, https://openweb.eu.org/articles/initiation_absolue
 - icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
 - overflow : https://developer.mozilla.org/fr/docs/Web/CSS/overflown https://www.alsacreations.com/tuto/lire/1038-gerer-debordement-contenu-et-cesures-css.html
-- picture  : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000 
+- picture  : https://codepen.io/mahfoudh-arous/pen/VwXoVjM?editors=1000, https://web.dev/learn/design/picture-element/
 - on positionne avec flex, on finalise avec margin/padding
 - Reporter les dimensions des éléments en px pour 1400px de large (avec figma et plugin Measure)
 - Travailler les dimensions des élements en live avec l'extension chrome perfectpixel, l'affichage responsive et l'inspecteur

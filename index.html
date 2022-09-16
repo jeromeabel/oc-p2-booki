@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Booki, trouver votre hébergement pour des vacances de rêve.">
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Booki">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.example.com/">
-    <meta property="og:image" content="http://example.com/image.jpg">
-    <meta property="og:description" content="Booki, trouver votre hébergement pour des vacances de rêve.">
-
     <!-- Normalize -->
     <link rel="stylesheet" href="./css/normalize.min.css">
 
@@ -40,9 +30,11 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <picture class="logo">
-                <source media="(min-width:768px)" srcset="./images/logo/Booki@3x.png">
-                <img src="./images/logo/Booki.png" alt="Logo de Booki">
+            <picture class="logo">   
+                <source srcset="./images/logo/Booki@3x.png 3x" media="(min-width:768px)" >
+                <img 
+                    src="./images/logo/Booki.png" alt="Logo de Booki"
+                    srcset="./images/logo/Booki.png 1x, ./images/logo/Booki@3x.png 3x">   
             </picture>
             <nav>
                 <ul>
@@ -94,7 +86,7 @@
                         <h2>Hébergements à Marseille</h2>
                     </div>
 
-                    <section class="acc-grid">
+                    <section class="acc-grid"> <!-- ? warning validator heading -->
 
                         <article class="acc-card">
                             <a href="#" title="Ouvrir">
@@ -341,7 +333,7 @@
                                 <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                     alt="Parc National des Calanques">
                             </picture>
-                            <h3>Parc National des Calanques</h3>
+                            <h3 class="long-txt">Parc National des Calanques</h3>
                         </a>
                     </div>
 

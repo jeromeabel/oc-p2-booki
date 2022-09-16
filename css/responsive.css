@@ -1,22 +1,8 @@
-/* @media (max-width:1200px) {
-    #accommmodations {
-        flex-direction: column-reverse;
+@media (max-width:1200px) {
+   h3.long-txt {
+        padding-top:10px;
     }
-
-    .pop-list {
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 100%;
-        max-width: 880px;
-    }
-
-    .acc-grid,
-    .pop-list {
-        justify-content: space-evenly;
-        padding: 10px;
-    }
-} */
-
+}
 
 /* Medium devices : tablets  & Phones */
 @media (max-width: 992px) {
