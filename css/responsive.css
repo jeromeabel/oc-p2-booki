@@ -1,8 +1,9 @@
-@media (max-width:1200px) {
+@media (max-width:1280px) {
 
     /* Text long activity card */
     h3.long-txt {
         padding-top: 10px;
+        padding-right:10px;
     }
 }
 
