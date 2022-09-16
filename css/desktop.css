@@ -17,8 +17,10 @@ body {
 }
 
 .container {
-    margin-inline: auto;  /* centrage horizontal */
-    max-width: 1440px; /* desktop first */
+    margin-inline: auto;
+    /* centrage horizontal */
+    max-width: 1440px;
+    /* desktop first */
     padding: 0 50px;
 }
 
@@ -42,17 +44,35 @@ a {
 img {
     display: block;
     width: 100%;
-    max-width:100%;
+    max-width: 100%;
+    /* respect ratio */
 }
 
 /* Utils */
-.blue { color:#0065FC; }
-.grey { color:#ddd; }
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+    color: #ddd;
+}
+
 /* large, medium, small */
-.h-100 { height:100%; }
-.h-l { height:53%; }
-.h-m { height:45%; }
-.h-s { height:37%; }
+.h-100 {
+    height: 100%;
+}
+
+.h-l {
+    height: 53%;
+}
+
+.h-m {
+    height: 45%;
+}
+
+.h-s {
+    height: 37%;
+}
 
 /* ------ HEADER ------ */
 header .container {
@@ -77,8 +97,8 @@ nav ul {
 
 nav a {
     display: block;
-    /* ? centrage vertical */
     padding: 47px 35px;
+    /* ? centrage vertical */
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 }
@@ -90,7 +110,7 @@ nav a:hover,
 }
 
 /* ------ FILTERS ------ */
-#filters > h1 {
+#filters>h1 {
     font-size: 22px;
     margin: 0;
 }
@@ -168,8 +188,8 @@ nav a:hover,
     width: 50px;
     height: 50px;
     display: flex;
-    /* centrage */
     align-items: center;
+    /* centrage */
     justify-content: center;
     border-radius: 50%;
     color: #0065FC;
@@ -200,8 +220,8 @@ nav a:hover,
     font-size: 12px;
     color: #0065FC;
     border: 1px solid #ccc;
-    /* ? épaississement */
     text-shadow: 1px 0px 0px #0065FC;
+    /* ? épaississement */
 }
 
 /* ------ ACCOMMODATIONS LAYOUT ------ */
@@ -214,11 +234,12 @@ nav a:hover,
 }
 
 #accommodations h2 {
-    font-size:22px;
+    font-size: 22px;
 }
 
 .acc-container {
-    width: 65%; /* ? flex:2; */
+    width: 65%;
+    /* ? flex:2; */
     margin-right: 2.8%;
     padding: 25px 35px;
     background-color: #F2F2F2;
@@ -226,9 +247,8 @@ nav a:hover,
 }
 
 .pop-container {
-    /* width: auto;  */
-    /* ? flex:1; */
     width: 30%;
+    /* ? flex:1; */
     min-width: 350px;
     padding: 25px 35px;
     background-color: #F2F2F2;
@@ -239,7 +259,7 @@ nav a:hover,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:30px;
+    gap: 30px;
 }
 
 .pop-list {
@@ -251,7 +271,7 @@ nav a:hover,
 
 /* ACC FOOTER */
 .acc-footer {
-    margin-top:45px;
+    margin-top: 45px;
 }
 
 .acc-footer a {
@@ -266,7 +286,7 @@ nav a:hover,
     justify-content: space-between;
 }
 
-.pop-header > i {
+.pop-header>i {
     font-size: 20px;
     padding: 2px;
 }
@@ -291,9 +311,9 @@ nav a:hover,
     height: 115px;
     border-radius: 15px 15px 0 0;
     overflow: hidden;
+    display: flex;
     /* centrage */
-    display: flex; 
-    align-items: center; 
+    align-items: center;
 }
 
 .acc-card-img img {
@@ -322,7 +342,7 @@ nav a:hover,
 
 .pop-card {
     width: 100%;
-    min-width:300px;
+    min-width: 300px;
     height: 145px;
     padding: 5px;
     background-color: #fff;
@@ -331,20 +351,20 @@ nav a:hover,
     font-size: 14px;
 }
 
-.pop-card > a {
+.pop-card>a {
     display: flex;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 .pop-card-img {
-    width:130px;
+    width: 130px;
     overflow: hidden;
     border-radius: 15px 0 0 15px;
 }
 
 .pop-card-img img {
-    height:100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -359,19 +379,19 @@ nav a:hover,
 }
 
 .pop-card-body h3 {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
-.pop-card-body  p {
-    padding:0;
+.pop-card-body p {
+    padding: 0;
     margin: 5px 0;
 }
 
 .pop-card-stars {
     font-size: 10px;
     position: absolute;
-    bottom:10px;
+    bottom: 10px;
 }
 
 /* ACTIVITY LAYOUT */
@@ -389,7 +409,6 @@ nav a:hover,
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    /* column-gap: 45px; */
     height: 445px;
 }
 
@@ -403,13 +422,13 @@ nav a:hover,
     position: relative;
 }
 
-.activity-card:hover{
+.activity-card:hover {
     box-shadow: 2px 2px 10px #888;
 }
 
 .activity-card img {
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 20px 20px 35px 35px;
 }
 
@@ -440,12 +459,12 @@ footer {
 }
 
 .footer-container div {
-    width:33%;
+    width: 33%;
 }
 
 footer p {
     font-weight: 600;
-    font-size:18px;
+    font-size: 18px;
 }
 
 footer li {

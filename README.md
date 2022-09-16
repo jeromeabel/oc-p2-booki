@@ -7,7 +7,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - Nom_Prenom_1_code_092022.zip
 
 ## Coding Rules
-- Évitez de mixer les deux langues. (? activites/4_small/)
+- Évitez de mixer les deux langues.
 - Préférez l’utilisation des pixels pour les margins, les paddings et les pourcentages pour les widths.
 - Utiliser les pixels et les pourcentages plutôt que les REM et les EM
 - Naming Kebab case : .main-wrapper
@@ -28,7 +28,7 @@ Booki, une petite entreprise propose un outil de planification de vacances. Cré
 - Box-sizing : https://la-cascade.io/articles/box-sizing-pour-les-nuls
 - meta mnimal template : https://github.com/celine-m-s/metatags-101/blob/master/minimal_template
 - https://www.abondance.com/20140627-14046-faut-il-integrer-les-balises-semantiques-schema-org-ses-pages.html
-- flex : https://css-tricks.com/snippets/css/a-guide-to-flexbox/, https://la-cascade.io/flexbox-guide-complet/
+- flex : https://css-tricks.com/snippets/css/a-guide-to-flexbox/, https://la-cascade.io/flexbox-guide-complet/, https://1linelayouts.glitch.me/, froggy
 - positionnement ! https://developer.mozilla.org/fr/docs/Web/CSS/position, https://openweb.eu.org/articles/initiation_absolue
 - icon font awesome sur input submit : https://forum.freecodecamp.org/t/solved-adding-font-awesome-icons-to-an-input-button/74139/5
 - overflow : https://developer.mozilla.org/fr/docs/Web/CSS/overflown https://www.alsacreations.com/tuto/lire/1038-gerer-debordement-contenu-et-cesures-css.html
