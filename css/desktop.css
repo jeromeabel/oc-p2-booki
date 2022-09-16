@@ -42,6 +42,7 @@ a {
 img {
     display: block;
     width: 100%;
+    max-width:100%;
 }
 
 /* Utils */
@@ -347,10 +348,6 @@ nav a:hover,
 .pop-card-img img {
     height:100%;
     object-fit: cover;
-}
-
-.pop-card-img .img-vertical {
-    width:100%;
 }
 
 .pop-card:hover {
