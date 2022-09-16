@@ -1,4 +1,5 @@
 @media (max-width:1200px) {
+   /* Text long activity card */
    h3.long-txt {
         padding-top:10px;
     }
@@ -47,7 +48,6 @@
     }
 
     .acc-container {
-        /* width: 48.5%; */
         width: 100%;
     }
 
@@ -87,7 +87,6 @@
     .footer-container div {
         width:25%;
     }
-
 }
 
 /* Small devices : phones */
@@ -213,21 +212,20 @@
     /* FILTERS FOOTER */
     .filters-footer {
         margin: 40px 0;
-        align-items: baseline;   
+        align-items: baseline;
+        column-gap: 20px;
     }
 
     .filters-footer p {
+        display: inline-block;
         font-size: 32px;
     }
 
-    .filters-footer-icon {
-        width: 50px ;
+    .filters-footer > i {
+        width: 50px ; 
         height: 50px;
         border-width: 2px;
         font-size: 25px;
-        margin-right: 10px;
-        /* ? centrage vertical */
-        padding: 0 20px; 
     }
 
     /* ACCOMMODATIONS */
