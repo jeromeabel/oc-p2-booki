@@ -14,7 +14,7 @@
 - [x] index.html : balises meta charset, viewport, description, open graph
 - [x] index.html : liens css (normalize, google font, font awesome, styles.css, responsive)
 - [x] Découpage desktop-first en .svg, .png
-- [x] Découpage avec figma (plugin Measure) pour 1400px
+- [x] Découpage avec figma (plugin Measure) pour 1440px
 - [x] Découpage mobile en .svg et .png : changements / desktop
 - [x] Intégration HTML balises sémantiques
 - [x] Création des trois profils dans les DevTools : desktop, tablet, mobile

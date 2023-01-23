@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Desktop first : du plus grand au plus petit */
 /* En général : ligne/colonne, centre, largeur, ordre */
 /* Medium devices : tablets ( + Phones) */
@@ -22,10 +23,14 @@
         height: 200px !important;
 =======
 @media (max-width:1200px) {
+=======
+@media (max-width:1280px) {
+>>>>>>> v2
 
     /* Text long activity card */
     h3.long-txt {
         padding-top: 10px;
+        padding-right:10px;
     }
 }
 
@@ -248,10 +253,14 @@
     }
 
     .filters-footer>i {
+        
         width: 50px;
         height: 50px;
         border-width: 2px;
         font-size: 25px;
+        padding:0 20px;
+        /* ? cercle */
+        /* ou flex: 1 0 auto; */
     }
 
     /* ACCOMMODATIONS */
