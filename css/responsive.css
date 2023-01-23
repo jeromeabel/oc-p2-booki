@@ -1,31 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* Desktop first : du plus grand au plus petit */
-/* En général : ligne/colonne, centre, largeur, ordre */
-/* Medium devices : tablets ( + Phones) */
-@media (max-width: 992px) {
-    .activity__grid {
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-height: 700px;
-    }
-
-    .activity--pair, .activity--odd {
-        /* flex: 1; */
-        flex: auto;
-        padding: 0;
-        /* min-width: 250px; */
-        /* height: 200px !important; */
-    }
-
-    .activity__card {
-        
-        height: 200px !important;
-=======
-@media (max-width:1200px) {
-=======
 @media (max-width:1280px) {
->>>>>>> v2
 
     /* Text long activity card */
     h3.long-txt {
@@ -115,7 +88,6 @@
 
     .footer-container div {
         width: 25%;
->>>>>>> v2
     }
 }
 
@@ -381,13 +353,8 @@
 
     /* FOOTER */
     footer {
-<<<<<<< HEAD
-        outline:2px solid red;
-        width:100%;
-=======
         width: 100%;
         padding: 30px 60px 100px 60px;
->>>>>>> v2
     }
 
     .footer-container {
