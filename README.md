@@ -1,11 +1,25 @@
-# oc-p2-booki
-Transformer une maquette en site web avec HTML et CSS
+![HTML](https://img.shields.io/badge/HTML-FFFFFF?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-459ACD?logo=css3)
 
-## Démo
+# oc-p2-booki
+This project is the n°2 in the [OpenClassrooms Front-End learning path](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react).
+
+- Booki, a small company offers a vacation planning tool.
+- Create a prototype by integrating the model in HTML and CSS (responsive)
+  
+## ✨ Demo
 - https://jeromeabel.github.io/oc-p2-booki/
 
-## Contexte
-Formation OpenClassrooms
+![Screenshots](images/screens.png)
 
-- Booki, une petite entreprise propose un outil de planification de vacances.
-- Créer un prototype en intégrant la maquette en HTML et CSS.
+
+## 🚀 Usage
+Just open the index.html in your browser
+
+## 👤 Author
+
+- [@jeromeabel](https://github.com/jeromeabel)
+
+## 📝 License
+
+- [GNU--GPL--3](https://www.gnu.org/licenses/gpl-3.0.fr.html)
